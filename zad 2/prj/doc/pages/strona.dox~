@@ -1,0 +1,16 @@
+/*!
+    \mainpage Operacje na pliku tekstowym
+
+    \author  Radoslaw Chudy
+    \date    03.03.2014
+    \version 1.0
+
+    Program wykonuje operacje na danych wczytanych z pliku tekstowego.
+
+    \section etykieta-dzialanie Dzialanie:
+
+\t Program ma za zadanie wykonanie operacji wczytania danych z pliku, nastepnie
+wykonywana jest operacja pomnozenia danego pliku przez liczbe 2. Uzyskane wyniki sa porownywane z plikiem sprawdzajacym. W czasie wykonywania operacji
+mnozenia mierzony jest czas wykonania tej operacji. Program pozwala na kilkukrotne wykonywanie tej operacji. Na koniec w programie wyliczone zostaja
+dane podsumowujace tzn. liczba powtorzen, czas danego powtorzenia i odchylenie standardowe. Te dane zostaja zapisane w pliku formatu csv.
+*/

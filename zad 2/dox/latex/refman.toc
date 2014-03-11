@@ -1,0 +1,54 @@
+\contentsline {chapter}{\numberline {1}Operacje na pliku tekstowym}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Dzialanie\discretionary {-}{}{}:}{1}{section.1.1}
+\contentsline {chapter}{\numberline {2}Class Index}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Class List}{3}{section.2.1}
+\contentsline {chapter}{\numberline {3}File Index}{5}{chapter.3}
+\contentsline {section}{\numberline {3.1}File List}{5}{section.3.1}
+\contentsline {chapter}{\numberline {4}Class Documentation}{7}{chapter.4}
+\contentsline {section}{\numberline {4.1}algorytm Class Reference}{7}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Detailed Description}{8}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Member Function Documentation}{8}{subsection.4.1.2}
+\contentsline {subsubsection}{\numberline {4.1.2.1}dodaj\discretionary {-}{}{}\_\discretionary {-}{}{}element}{8}{subsubsection.4.1.2.1}
+\contentsline {subsubsection}{\numberline {4.1.2.2}dodaj\discretionary {-}{}{}\_\discretionary {-}{}{}elementy}{8}{subsubsection.4.1.2.2}
+\contentsline {subsubsection}{\numberline {4.1.2.3}odwroc\discretionary {-}{}{}\_\discretionary {-}{}{}tablice}{8}{subsubsection.4.1.2.3}
+\contentsline {subsubsection}{\numberline {4.1.2.4}operator=}{9}{subsubsection.4.1.2.4}
+\contentsline {subsubsection}{\numberline {4.1.2.5}pobierz\discretionary {-}{}{}\_\discretionary {-}{}{}czas}{9}{subsubsection.4.1.2.5}
+\contentsline {subsubsection}{\numberline {4.1.2.6}sprawdz}{9}{subsubsection.4.1.2.6}
+\contentsline {subsubsection}{\numberline {4.1.2.7}test}{9}{subsubsection.4.1.2.7}
+\contentsline {subsubsection}{\numberline {4.1.2.8}wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}dane}{10}{subsubsection.4.1.2.8}
+\contentsline {subsubsection}{\numberline {4.1.2.9}wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}dane\discretionary {-}{}{}\_\discretionary {-}{}{}sprawdzajace}{10}{subsubsection.4.1.2.9}
+\contentsline {subsubsection}{\numberline {4.1.2.10}wykonaj\discretionary {-}{}{}\_\discretionary {-}{}{}obliczenia}{11}{subsubsection.4.1.2.10}
+\contentsline {subsubsection}{\numberline {4.1.2.11}zamien\discretionary {-}{}{}\_\discretionary {-}{}{}elementy}{11}{subsubsection.4.1.2.11}
+\contentsline {subsection}{\numberline {4.1.3}Member Data Documentation}{11}{subsection.4.1.3}
+\contentsline {subsubsection}{\numberline {4.1.3.1}elementy}{11}{subsubsection.4.1.3.1}
+\contentsline {subsubsection}{\numberline {4.1.3.2}powtorzenia}{11}{subsubsection.4.1.3.2}
+\contentsline {subsubsection}{\numberline {4.1.3.3}tab\discretionary {-}{}{}\_\discretionary {-}{}{}danych}{11}{subsubsection.4.1.3.3}
+\contentsline {subsubsection}{\numberline {4.1.3.4}tab\discretionary {-}{}{}\_\discretionary {-}{}{}obliczone}{11}{subsubsection.4.1.3.4}
+\contentsline {subsubsection}{\numberline {4.1.3.5}tab\discretionary {-}{}{}\_\discretionary {-}{}{}sprawdzajace}{12}{subsubsection.4.1.3.5}
+\contentsline {section}{\numberline {4.2}dane Class Reference}{12}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Detailed Description}{12}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Constructor \& Destructor Documentation}{12}{subsection.4.2.2}
+\contentsline {subsubsection}{\numberline {4.2.2.1}dane}{12}{subsubsection.4.2.2.1}
+\contentsline {subsection}{\numberline {4.2.3}Member Function Documentation}{13}{subsection.4.2.3}
+\contentsline {subsubsection}{\numberline {4.2.3.1}wylicz\discretionary {-}{}{}\_\discretionary {-}{}{}odchylenie}{13}{subsubsection.4.2.3.1}
+\contentsline {subsubsection}{\numberline {4.2.3.2}zapisz\discretionary {-}{}{}\_\discretionary {-}{}{}do\discretionary {-}{}{}\_\discretionary {-}{}{}csv}{13}{subsubsection.4.2.3.2}
+\contentsline {subsection}{\numberline {4.2.4}Member Data Documentation}{13}{subsection.4.2.4}
+\contentsline {subsubsection}{\numberline {4.2.4.1}czas\discretionary {-}{}{}\_\discretionary {-}{}{}operacji}{13}{subsubsection.4.2.4.1}
+\contentsline {subsubsection}{\numberline {4.2.4.2}odchylenie}{13}{subsubsection.4.2.4.2}
+\contentsline {subsubsection}{\numberline {4.2.4.3}powtorzenia}{14}{subsubsection.4.2.4.3}
+\contentsline {subsubsection}{\numberline {4.2.4.4}tab\discretionary {-}{}{}\_\discretionary {-}{}{}czasow}{14}{subsubsection.4.2.4.4}
+\contentsline {chapter}{\numberline {5}File Documentation}{15}{chapter.5}
+\contentsline {section}{\numberline {5.1}algorytm.\discretionary {-}{}{}cpp File Reference}{15}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Detailed Description}{15}{subsection.5.1.1}
+\contentsline {section}{\numberline {5.2}algorytm.\discretionary {-}{}{}h File Reference}{16}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Detailed Description}{16}{subsection.5.2.1}
+\contentsline {section}{\numberline {5.3}dane.\discretionary {-}{}{}cpp File Reference}{17}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Detailed Description}{17}{subsection.5.3.1}
+\contentsline {section}{\numberline {5.4}dane.\discretionary {-}{}{}h File Reference}{17}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Detailed Description}{18}{subsection.5.4.1}
+\contentsline {section}{\numberline {5.5}main.\discretionary {-}{}{}cpp File Reference}{18}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}Detailed Description}{19}{subsection.5.5.1}
+\contentsline {subsection}{\numberline {5.5.2}Function Documentation}{19}{subsection.5.5.2}
+\contentsline {subsubsection}{\numberline {5.5.2.1}main}{19}{subsubsection.5.5.2.1}
+\contentsline {section}{\numberline {5.6}strona.\discretionary {-}{}{}dox File Reference}{20}{section.5.6}
+\contentsline {part}{Index}{21}{section*.9}

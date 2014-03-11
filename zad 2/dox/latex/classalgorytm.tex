@@ -1,0 +1,338 @@
+\hypertarget{classalgorytm}{\section{algorytm Class Reference}
+\label{classalgorytm}\index{algorytm@{algorytm}}
+}
+
+
+Modeluje pojecie algorytmu.  
+
+
+
+
+{\ttfamily \#include $<$algorytm.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+int $\ast$ \hyperlink{classalgorytm_aa2512ee12d0f4dd322b2ae38e0104728}{wczytaj\-\_\-dane} ()
+\begin{DoxyCompactList}\small\item\em Metoda wczytujaca dane z pliku tesowego. \end{DoxyCompactList}\item 
+clock\-\_\-t \hyperlink{classalgorytm_afcbc1b3cc38d93c42525cb310cf013ac}{pobierz\-\_\-czas} ()
+\begin{DoxyCompactList}\small\item\em Metoda pobierajaca czas. \end{DoxyCompactList}\item 
+int $\ast$ \hyperlink{classalgorytm_a78f39eb60ed01731efe1b69af93b0ab1}{wykonaj\-\_\-obliczenia} ()
+\begin{DoxyCompactList}\small\item\em Metoda wykonaj obliczenia. \end{DoxyCompactList}\item 
+int $\ast$ \hyperlink{classalgorytm_a218800ae392b95a6f257538940ee0c12}{wczytaj\-\_\-dane\-\_\-sprawdzajace} ()
+\begin{DoxyCompactList}\small\item\em Metoda wczytujaca dane sprawdzajace z pliku tesowego. \end{DoxyCompactList}\item 
+bool \hyperlink{classalgorytm_a238208b7d91fb5bf21c2262dfade6add}{sprawdz} ()
+\begin{DoxyCompactList}\small\item\em Metoda Sprawdz. \end{DoxyCompactList}\item 
+void \hyperlink{classalgorytm_ae0bcecdcf531d82d6f7fe07b669e8953}{zamien\-\_\-elementy} (int $\ast$tablica, int pierwszy, int drugi)
+\begin{DoxyCompactList}\small\item\em Metoda zamien elementy. \end{DoxyCompactList}\item 
+void \hyperlink{classalgorytm_acf5c24637c36aed90a4703c23d645e88}{odwroc\-\_\-tablice} (int $\ast$tablica)
+\begin{DoxyCompactList}\small\item\em Metoda odwroc tablice. \end{DoxyCompactList}\item 
+int $\ast$ \hyperlink{classalgorytm_abba1df6da457b63d6405de3191ecf8fc}{dodaj\-\_\-element} (int $\ast$tablica, int element)
+\begin{DoxyCompactList}\small\item\em Metoda dodaj elementy. \end{DoxyCompactList}\item 
+int $\ast$ \hyperlink{classalgorytm_a8ea259f4037d0ae2f8d3cffbafd9aa30}{dodaj\-\_\-elementy} (int $\ast$tab\-\_\-pierwsza, int $\ast$tab\-\_\-druga)
+\begin{DoxyCompactList}\small\item\em Metoda dodaj elementy. \end{DoxyCompactList}\item 
+int $\ast$ \hyperlink{classalgorytm_afc58371cc2a7d9355e03b7e0da204067}{operator=} (int $\ast$tab\-\_\-pierwsza)
+\begin{DoxyCompactList}\small\item\em Przeciazenie operatora przypisania. \end{DoxyCompactList}\item 
+int \hyperlink{classalgorytm_ac86c17db1372a20261b2eb66530d2775}{test} (\hyperlink{classdane}{dane} $\ast$Info)
+\begin{DoxyCompactList}\small\item\em Metoda test. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{classalgorytm_a6f208bf8705cfe407a3b7dea8b1e871c}{powtorzenia}
+\begin{DoxyCompactList}\small\item\em Pole powtorzenia. \end{DoxyCompactList}\item 
+int \hyperlink{classalgorytm_aa8284a41958410778215e08dc305f409}{elementy}
+\begin{DoxyCompactList}\small\item\em Pole elementy. \end{DoxyCompactList}\item 
+int $\ast$ \hyperlink{classalgorytm_a7bbde139599763bf8b36d21c6f314a1a}{tab\-\_\-danych}
+\begin{DoxyCompactList}\small\item\em Wskaznik tab\-\_\-danych. \end{DoxyCompactList}\item 
+int $\ast$ \hyperlink{classalgorytm_a02dd561c7411091f78e0d058bb1485df}{tab\-\_\-obliczone}
+\begin{DoxyCompactList}\small\item\em Wskaznik tab\-\_\-obliczone. \end{DoxyCompactList}\item 
+int $\ast$ \hyperlink{classalgorytm_a67ec91f63071c85dea86bed4b77d5239}{tab\-\_\-sprawdzajace}
+\begin{DoxyCompactList}\small\item\em Wskaznik tab\-\_\-sprawdzajace. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Klasa modeluje pojecie algorytmu w sklad ktorego wchodza pola odpowiadajace min. za ilosc wczytanych elementow, powtorzenia algorytmow. Wsrod metod klasy znajduja sie min. wczytanie danych, pobranie czasu, zamiana elementow tablicy itd. 
+
+Definition at line 26 of file algorytm.\-h.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classalgorytm_abba1df6da457b63d6405de3191ecf8fc}{\index{algorytm@{algorytm}!dodaj\-\_\-element@{dodaj\-\_\-element}}
+\index{dodaj\-\_\-element@{dodaj\-\_\-element}!algorytm@{algorytm}}
+\subsubsection[{dodaj\-\_\-element}]{\setlength{\rightskip}{0pt plus 5cm}int $\ast$ algorytm\-::dodaj\-\_\-element (
+\begin{DoxyParamCaption}
+\item[{int $\ast$}]{tablica, }
+\item[{int}]{element}
+\end{DoxyParamCaption}
+)}}\label{classalgorytm_abba1df6da457b63d6405de3191ecf8fc}
+Metoda dodaj element dodaje do zadanej tablicy jeden element o zadanej wartosci na koniec tablicy przez co tablica zwieksza swoj rozmiar o 1. Metoda zwraca wskaznik na nowa tablice.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em tablica} & -\/ wskaznik na tablice do ktorej zostanie dodany element. \\
+\hline
+\mbox{\tt in}  & {\em element} & -\/ zmienna typu int ktora zostanie dodana do podanej tablicy.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Zwraca wskaznik do nowej tablicy z dodanym elementem. 
+\end{DoxyReturn}
+
+
+Definition at line 107 of file algorytm.\-cpp.
+
+\hypertarget{classalgorytm_a8ea259f4037d0ae2f8d3cffbafd9aa30}{\index{algorytm@{algorytm}!dodaj\-\_\-elementy@{dodaj\-\_\-elementy}}
+\index{dodaj\-\_\-elementy@{dodaj\-\_\-elementy}!algorytm@{algorytm}}
+\subsubsection[{dodaj\-\_\-elementy}]{\setlength{\rightskip}{0pt plus 5cm}int $\ast$ algorytm\-::dodaj\-\_\-elementy (
+\begin{DoxyParamCaption}
+\item[{int $\ast$}]{tab\-\_\-pierwsza, }
+\item[{int $\ast$}]{tab\-\_\-druga}
+\end{DoxyParamCaption}
+)}}\label{classalgorytm_a8ea259f4037d0ae2f8d3cffbafd9aa30}
+Metoda dodaje ze soba dwie tablice tworzac jeden element. Jako argumenty metoda przyjmuje wskazniki na tablice ktore maja byc ze soba dodane. Zwracany jest wskaznik na nowo stworzona tablice zlozona z elementow obu tablic.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em tab\-\_\-pierwsza} & -\/ tablica od ktorej bedzie rozpoczynala sie nowo utworzona tablica. \\
+\hline
+\mbox{\tt in}  & {\em tab\-\_\-druga} & -\/ tablica ktora zostanie dopisana jako druga do nowo utworzonej tablicy.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Zwraca wskaznik na nowa tablice. 
+\end{DoxyReturn}
+
+
+Definition at line 117 of file algorytm.\-cpp.
+
+\hypertarget{classalgorytm_acf5c24637c36aed90a4703c23d645e88}{\index{algorytm@{algorytm}!odwroc\-\_\-tablice@{odwroc\-\_\-tablice}}
+\index{odwroc\-\_\-tablice@{odwroc\-\_\-tablice}!algorytm@{algorytm}}
+\subsubsection[{odwroc\-\_\-tablice}]{\setlength{\rightskip}{0pt plus 5cm}void algorytm\-::odwroc\-\_\-tablice (
+\begin{DoxyParamCaption}
+\item[{int $\ast$}]{tablica}
+\end{DoxyParamCaption}
+)}}\label{classalgorytm_acf5c24637c36aed90a4703c23d645e88}
+Metoda odwroc tablice wykonuje zamiane elementow tablicy w taki sposob iz pierwszy staje sie ostatni, a ostatni pierwszym. Jako argument przyjmuje wskaznik na tablice ktora chcemy odwrocic. Nie zwraca wartosci.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em tablica} & -\/ wskaznik na tablice wartosci int. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 99 of file algorytm.\-cpp.
+
+\hypertarget{classalgorytm_afc58371cc2a7d9355e03b7e0da204067}{\index{algorytm@{algorytm}!operator=@{operator=}}
+\index{operator=@{operator=}!algorytm@{algorytm}}
+\subsubsection[{operator=}]{\setlength{\rightskip}{0pt plus 5cm}int $\ast$ algorytm\-::operator= (
+\begin{DoxyParamCaption}
+\item[{int $\ast$}]{tab\-\_\-pierwsza}
+\end{DoxyParamCaption}
+)}}\label{classalgorytm_afc58371cc2a7d9355e03b7e0da204067}
+Przeciazenie operatora przypisania pozwala na bezposrednie przypisanie dwoch tablic ze soba. Jako argument przyjmuje wskaznik na tablice ktora zostanie przypisana. Zwraca natomiast wskaznik na nowa tablice z przypisanymi elementami.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em tab\-\_\-pierwsza} & -\/ wskaznik na tablice ktora bedzie przypisana do drugiej\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Zwraca wskaznik na ta tablice. 
+\end{DoxyReturn}
+
+
+Definition at line 129 of file algorytm.\-cpp.
+
+\hypertarget{classalgorytm_afcbc1b3cc38d93c42525cb310cf013ac}{\index{algorytm@{algorytm}!pobierz\-\_\-czas@{pobierz\-\_\-czas}}
+\index{pobierz\-\_\-czas@{pobierz\-\_\-czas}!algorytm@{algorytm}}
+\subsubsection[{pobierz\-\_\-czas}]{\setlength{\rightskip}{0pt plus 5cm}clock\-\_\-t algorytm\-::pobierz\-\_\-czas (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classalgorytm_afcbc1b3cc38d93c42525cb310cf013ac}
+Metoda sluzy do pobrania czasu i wykorzystywana jest obliczenia czasu w jakim wykonany zostal algorytm oraz kazde jego powtorzenie. Zwraca aktualny czas.
+
+\begin{DoxyReturn}{Returns}
+Zwraca zmienna typu clock\-\_\-t. 
+\end{DoxyReturn}
+
+
+Definition at line 44 of file algorytm.\-cpp.
+
+\hypertarget{classalgorytm_a238208b7d91fb5bf21c2262dfade6add}{\index{algorytm@{algorytm}!sprawdz@{sprawdz}}
+\index{sprawdz@{sprawdz}!algorytm@{algorytm}}
+\subsubsection[{sprawdz}]{\setlength{\rightskip}{0pt plus 5cm}bool algorytm\-::sprawdz (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classalgorytm_a238208b7d91fb5bf21c2262dfade6add}
+Metoda ta sprawdza poprawnosci wykonania operacji na tablicy danych poprzez porownanie kazdego elementu tab\-\_\-obliczone z odpowiadajacym jej elementem tab\-\_\-sprawdzjace. W przypadku poprawnego wykonania poprawnej operacji na tab\-\_\-danych i porownaniu z tab\-\_\-sprawdzajace metoda zwraca wartosc true gdy jakis z elementow jest inny od odpowiednika to zwracana jest wartosc false.
+
+\begin{DoxyReturn}{Returns}
+Zwraca wartosc logiczna true/false w zaleznosci od rezultatu. 
+\end{DoxyReturn}
+
+
+Definition at line 74 of file algorytm.\-cpp.
+
+\hypertarget{classalgorytm_ac86c17db1372a20261b2eb66530d2775}{\index{algorytm@{algorytm}!test@{test}}
+\index{test@{test}!algorytm@{algorytm}}
+\subsubsection[{test}]{\setlength{\rightskip}{0pt plus 5cm}int algorytm\-::test (
+\begin{DoxyParamCaption}
+\item[{{\bf dane} $\ast$}]{Info}
+\end{DoxyParamCaption}
+)}}\label{classalgorytm_ac86c17db1372a20261b2eb66530d2775}
+Metoda test jak nazwa wskazuje dokonuje poprawnosci dzialania zalozen programu. Sklada sie z odpowiedniej sekkwencji wywolania funkcji. Otwierane sa tu pliki testowe i sprawdzajace. Do obiektu Info sa wysylane odpowiednie informacje. Na koniec wywolywane sa metody klasy dane dokonujace zapisu danych statystycznych do pliku csv. Jako argument przyjmuje wskaznik do obiektu klasy dane. Zwraca wartosc logiczna 0 po wykonaniu testu
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em Info} & -\/ wskaznik na obiekt klasy dane do ktorego zapisane bd wyniki przeprowadzonego testu.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Zwraca wartosc logiczna typu int po wykonaniu testu. 
+\end{DoxyReturn}
+
+
+Definition at line 138 of file algorytm.\-cpp.
+
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=318pt]{classalgorytm_ac86c17db1372a20261b2eb66530d2775_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=232pt]{classalgorytm_ac86c17db1372a20261b2eb66530d2775_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classalgorytm_aa2512ee12d0f4dd322b2ae38e0104728}{\index{algorytm@{algorytm}!wczytaj\-\_\-dane@{wczytaj\-\_\-dane}}
+\index{wczytaj\-\_\-dane@{wczytaj\-\_\-dane}!algorytm@{algorytm}}
+\subsubsection[{wczytaj\-\_\-dane}]{\setlength{\rightskip}{0pt plus 5cm}int $\ast$ algorytm\-::wczytaj\-\_\-dane (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classalgorytm_aa2512ee12d0f4dd322b2ae38e0104728}
+Metoda ta wykonuje operacje wczytania pliku z danymi do tablicy tab\-\_\-danych zawierajacej dane int. rozmiar tablicy definiowany jest przez liczbe elementow okreslona przez pierwsza wartosc wczytana z pliku. W przypadku niepowodzenia operacji otwarcia pliku uzytkownik informowany jest o tym odpowiednim komunikatem. Metoda zwraca wskaznik na tablice z wczytanymi przez nia danymi.
+
+\begin{DoxyReturn}{Returns}
+Zwraca wskaznik na tab\-\_\-danych 
+\end{DoxyReturn}
+
+
+Definition at line 26 of file algorytm.\-cpp.
+
+\hypertarget{classalgorytm_a218800ae392b95a6f257538940ee0c12}{\index{algorytm@{algorytm}!wczytaj\-\_\-dane\-\_\-sprawdzajace@{wczytaj\-\_\-dane\-\_\-sprawdzajace}}
+\index{wczytaj\-\_\-dane\-\_\-sprawdzajace@{wczytaj\-\_\-dane\-\_\-sprawdzajace}!algorytm@{algorytm}}
+\subsubsection[{wczytaj\-\_\-dane\-\_\-sprawdzajace}]{\setlength{\rightskip}{0pt plus 5cm}int $\ast$ algorytm\-::wczytaj\-\_\-dane\-\_\-sprawdzajace (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classalgorytm_a218800ae392b95a6f257538940ee0c12}
+Metoda ta wykonuje operacje wczytania pliku z danymi do tablicy tab\-\_\-sprawdzajace zawierajacej dane int. rozmiar tablicy definiowany jest przez liczbe elementow okreslona przez pierwsza wartosc wczytana z pliku z danymi testowymi. W przypadku niepowodzenia operacji otwarcia pliku uzytkownik informowany jest o tym odpowiednim komunikatem. Metoda zwraca wskaznik na tablice z wczytanymi przez nia danymi sprawdzajacymi.
+
+\begin{DoxyReturn}{Returns}
+Zwraca wskaznik na tab\-\_\-sprawdzajace. 
+\end{DoxyReturn}
+
+
+Definition at line 57 of file algorytm.\-cpp.
+
+\hypertarget{classalgorytm_a78f39eb60ed01731efe1b69af93b0ab1}{\index{algorytm@{algorytm}!wykonaj\-\_\-obliczenia@{wykonaj\-\_\-obliczenia}}
+\index{wykonaj\-\_\-obliczenia@{wykonaj\-\_\-obliczenia}!algorytm@{algorytm}}
+\subsubsection[{wykonaj\-\_\-obliczenia}]{\setlength{\rightskip}{0pt plus 5cm}int $\ast$ algorytm\-::wykonaj\-\_\-obliczenia (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classalgorytm_a78f39eb60ed01731efe1b69af93b0ab1}
+Metoda sluzy do wykonywania obliczen na tablicy znajdujacej sie w polu klasy Algorytm. Funkcja zwraca wskaznik na tablice z danymi po wykonaniu operacji na nich.
+
+\begin{DoxyReturn}{Returns}
+Wskaznik na tab\-\_\-obliczone. 
+\end{DoxyReturn}
+
+
+Definition at line 49 of file algorytm.\-cpp.
+
+\hypertarget{classalgorytm_ae0bcecdcf531d82d6f7fe07b669e8953}{\index{algorytm@{algorytm}!zamien\-\_\-elementy@{zamien\-\_\-elementy}}
+\index{zamien\-\_\-elementy@{zamien\-\_\-elementy}!algorytm@{algorytm}}
+\subsubsection[{zamien\-\_\-elementy}]{\setlength{\rightskip}{0pt plus 5cm}void algorytm\-::zamien\-\_\-elementy (
+\begin{DoxyParamCaption}
+\item[{int $\ast$}]{tablica, }
+\item[{int}]{pierwszy, }
+\item[{int}]{drugi}
+\end{DoxyParamCaption}
+)}}\label{classalgorytm_ae0bcecdcf531d82d6f7fe07b669e8953}
+Metoda zamien elementy dokonuje zamiany elementow o zadanych parametrach. Jako parametry metoda przyjmuje wskaznik na tablice na ktorej chcemy wykonac operacje oraz dwa kolejne argumenty typu int, ktore podaja numer elementu ktore maja byc ze soba zamienione. Zadna wartosc nie jest zwracana.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em tablica} & -\/ wskaznik na tablice, w ktorej chcemy zamienic elementy. \\
+\hline
+\mbox{\tt in}  & {\em pierwszy} & -\/ pierwszy z elementow tablicy ktore chcemy zamienic. \\
+\hline
+\mbox{\tt in}  & {\em drugi} & -\/ drug z elementow tablicy ktore chcemy ze soba zamienic. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 93 of file algorytm.\-cpp.
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classalgorytm_aa8284a41958410778215e08dc305f409}{\index{algorytm@{algorytm}!elementy@{elementy}}
+\index{elementy@{elementy}!algorytm@{algorytm}}
+\subsubsection[{elementy}]{\setlength{\rightskip}{0pt plus 5cm}int algorytm\-::elementy}}\label{classalgorytm_aa8284a41958410778215e08dc305f409}
+Pole to odpowiedzialne jest za przechowywanie informacji mowiacej o ilosci elementow jaka pozostanie wczytana do programu z pliku tekstowego. 
+
+Definition at line 42 of file algorytm.\-h.
+
+\hypertarget{classalgorytm_a6f208bf8705cfe407a3b7dea8b1e871c}{\index{algorytm@{algorytm}!powtorzenia@{powtorzenia}}
+\index{powtorzenia@{powtorzenia}!algorytm@{algorytm}}
+\subsubsection[{powtorzenia}]{\setlength{\rightskip}{0pt plus 5cm}int algorytm\-::powtorzenia}}\label{classalgorytm_a6f208bf8705cfe407a3b7dea8b1e871c}
+Pole to odpowiedzialne jest za przechowywanie informacji mowiacej o ilosci powtorzen algorytmu. 
+
+Definition at line 34 of file algorytm.\-h.
+
+\hypertarget{classalgorytm_a7bbde139599763bf8b36d21c6f314a1a}{\index{algorytm@{algorytm}!tab\-\_\-danych@{tab\-\_\-danych}}
+\index{tab\-\_\-danych@{tab\-\_\-danych}!algorytm@{algorytm}}
+\subsubsection[{tab\-\_\-danych}]{\setlength{\rightskip}{0pt plus 5cm}int$\ast$ algorytm\-::tab\-\_\-danych}}\label{classalgorytm_a7bbde139599763bf8b36d21c6f314a1a}
+Pole to odpowiedzialne jest za przechowywanie wskaznika do alokowanej dynamicznie tablicy danych zawierajacej elementy wczytane z pliku testowego. 
+
+Definition at line 51 of file algorytm.\-h.
+
+\hypertarget{classalgorytm_a02dd561c7411091f78e0d058bb1485df}{\index{algorytm@{algorytm}!tab\-\_\-obliczone@{tab\-\_\-obliczone}}
+\index{tab\-\_\-obliczone@{tab\-\_\-obliczone}!algorytm@{algorytm}}
+\subsubsection[{tab\-\_\-obliczone}]{\setlength{\rightskip}{0pt plus 5cm}int$\ast$ algorytm\-::tab\-\_\-obliczone}}\label{classalgorytm_a02dd561c7411091f78e0d058bb1485df}
+Pole to odpowiedzialne jest za przechowywanie wskaznika do alokowanej dynamicznie tablicy danych zawierajacej wartosci elementow z tablicy danych przez okreslona wartosc. 
+
+Definition at line 60 of file algorytm.\-h.
+
+\hypertarget{classalgorytm_a67ec91f63071c85dea86bed4b77d5239}{\index{algorytm@{algorytm}!tab\-\_\-sprawdzajace@{tab\-\_\-sprawdzajace}}
+\index{tab\-\_\-sprawdzajace@{tab\-\_\-sprawdzajace}!algorytm@{algorytm}}
+\subsubsection[{tab\-\_\-sprawdzajace}]{\setlength{\rightskip}{0pt plus 5cm}int$\ast$ algorytm\-::tab\-\_\-sprawdzajace}}\label{classalgorytm_a67ec91f63071c85dea86bed4b77d5239}
+Pole to odpowiedzialne jest za przechowywanie wskaznika do alokowanej dynamicznie tablicy danych zawierajacej wartosci elementow z tablicy danych przez okreslona wartosc. 
+
+Definition at line 69 of file algorytm.\-h.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{algorytm_8h}{algorytm.\-h}\item 
+\hyperlink{algorytm_8cpp}{algorytm.\-cpp}\end{DoxyCompactItemize}

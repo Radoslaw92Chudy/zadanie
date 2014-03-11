@@ -1,0 +1,137 @@
+\hypertarget{classdane}{\section{dane Class Reference}
+\label{classdane}\index{dane@{dane}}
+}
+
+
+Modeluje pojecie dane.  
+
+
+
+
+{\ttfamily \#include $<$dane.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classdane_aa74e7fb3542aa856cf6e36d5cd9a4db9}{dane} (int \hyperlink{classdane_a77efb8d7494e984418802f6e7cc32d20}{powtorzenia})
+\begin{DoxyCompactList}\small\item\em Konstruktor parametryczny. \end{DoxyCompactList}\item 
+void \hyperlink{classdane_a365e299198fea0ee26fe080de6b0d12e}{wylicz\-\_\-odchylenie} ()
+\begin{DoxyCompactList}\small\item\em Metoda wyliczajaca odchylenie standardowe. \end{DoxyCompactList}\item 
+void \hyperlink{classdane_a8427efc3e40d63911205b297aecb4ca9}{zapisz\-\_\-do\-\_\-csv} ()
+\begin{DoxyCompactList}\small\item\em Metoda zapisujaca dane do pliku csv. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{classdane_a77efb8d7494e984418802f6e7cc32d20}{powtorzenia}
+\begin{DoxyCompactList}\small\item\em Pole powtorzenia. \end{DoxyCompactList}\item 
+clock\-\_\-t \hyperlink{classdane_a2301ccecd10f96a73e6816fc415e4edb}{czas\-\_\-operacji}
+\begin{DoxyCompactList}\small\item\em Pole czas\-\_\-operacji. \end{DoxyCompactList}\item 
+double \hyperlink{classdane_adf1201c327225fc441f65b6d3b0d17e9}{odchylenie}
+\begin{DoxyCompactList}\small\item\em Pole odchylenie. \end{DoxyCompactList}\item 
+clock\-\_\-t $\ast$ \hyperlink{classdane_aa684a7eacd6787f62b0ed1115efc88ad}{tab\-\_\-czasow}
+\begin{DoxyCompactList}\small\item\em Pole $\ast$tab\-\_\-czasow. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Klasa modeluje pojecie dane. W tej klasie znajduja sie informacje dotyczace podsumowania pracy algorytmu. Polami tej klasy sa zmienne odpowiadajace za min. ilosc powtorzen algorytmu. Metody tej klasy wyliczaja odchylenie standardowe oraz zapisuja dane podsumowujace w pliku csv. 
+
+Definition at line 26 of file dane.\-h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classdane_aa74e7fb3542aa856cf6e36d5cd9a4db9}{\index{dane@{dane}!dane@{dane}}
+\index{dane@{dane}!dane@{dane}}
+\subsubsection[{dane}]{\setlength{\rightskip}{0pt plus 5cm}dane\-::dane (
+\begin{DoxyParamCaption}
+\item[{int}]{powtorzenia}
+\end{DoxyParamCaption}
+)}}\label{classdane_aa74e7fb3542aa856cf6e36d5cd9a4db9}
+Konstruktor jako parametr przyjmuje wartosc powtorzen, aby zaalokowac pamiec potrzebna do przechowywania czasu kazdego powtorzenia algorytmu. 
+
+Definition at line 20 of file dane.\-cpp.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classdane_a365e299198fea0ee26fe080de6b0d12e}{\index{dane@{dane}!wylicz\-\_\-odchylenie@{wylicz\-\_\-odchylenie}}
+\index{wylicz\-\_\-odchylenie@{wylicz\-\_\-odchylenie}!dane@{dane}}
+\subsubsection[{wylicz\-\_\-odchylenie}]{\setlength{\rightskip}{0pt plus 5cm}void dane\-::wylicz\-\_\-odchylenie (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classdane_a365e299198fea0ee26fe080de6b0d12e}
+Metoda ta wylicza wartosc odchylenia standardowego zestawu czasow zawartych w tablicy czasow tab\-\_\-czasow. Metoda nie przyjmuje parametrow, ani nie zwraca zadnej wartosci. 
+
+Definition at line 23 of file dane.\-cpp.
+
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classdane_a365e299198fea0ee26fe080de6b0d12e_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classdane_a8427efc3e40d63911205b297aecb4ca9}{\index{dane@{dane}!zapisz\-\_\-do\-\_\-csv@{zapisz\-\_\-do\-\_\-csv}}
+\index{zapisz\-\_\-do\-\_\-csv@{zapisz\-\_\-do\-\_\-csv}!dane@{dane}}
+\subsubsection[{zapisz\-\_\-do\-\_\-csv}]{\setlength{\rightskip}{0pt plus 5cm}void dane\-::zapisz\-\_\-do\-\_\-csv (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classdane_a8427efc3e40d63911205b297aecb4ca9}
+Metoda ta zapisuje informacje dotyczace wykonania sie algorytmu w pliku formatu csv. W tej metodzie tworzony jest odpowiedni obiekt klasy fstream do ktorego zapisywane sa informacje odnosnie ilosci powtorzen, czasu operacji, czasu powtorzen oraz odchylenie standardowe czasow. 
+
+Definition at line 37 of file dane.\-cpp.
+
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classdane_a8427efc3e40d63911205b297aecb4ca9_icgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classdane_a2301ccecd10f96a73e6816fc415e4edb}{\index{dane@{dane}!czas\-\_\-operacji@{czas\-\_\-operacji}}
+\index{czas\-\_\-operacji@{czas\-\_\-operacji}!dane@{dane}}
+\subsubsection[{czas\-\_\-operacji}]{\setlength{\rightskip}{0pt plus 5cm}clock\-\_\-t dane\-::czas\-\_\-operacji}}\label{classdane_a2301ccecd10f96a73e6816fc415e4edb}
+Pole to odpowiedzialne jest za przechowywanie informacji mowiacej w jakim czasie wykonano wszystkie powtorzenia algorytmu. Zmienna jest typu clock\-\_\-t. 
+
+Definition at line 43 of file dane.\-h.
+
+\hypertarget{classdane_adf1201c327225fc441f65b6d3b0d17e9}{\index{dane@{dane}!odchylenie@{odchylenie}}
+\index{odchylenie@{odchylenie}!dane@{dane}}
+\subsubsection[{odchylenie}]{\setlength{\rightskip}{0pt plus 5cm}double dane\-::odchylenie}}\label{classdane_adf1201c327225fc441f65b6d3b0d17e9}
+Pole to odpowiedzialne jest za przechowywanie informacji mowiacej ile wynosi odchylenie standardowe z czasow wykonania algorytmu. Zmienna jest typu double. 
+
+Definition at line 51 of file dane.\-h.
+
+\hypertarget{classdane_a77efb8d7494e984418802f6e7cc32d20}{\index{dane@{dane}!powtorzenia@{powtorzenia}}
+\index{powtorzenia@{powtorzenia}!dane@{dane}}
+\subsubsection[{powtorzenia}]{\setlength{\rightskip}{0pt plus 5cm}int dane\-::powtorzenia}}\label{classdane_a77efb8d7494e984418802f6e7cc32d20}
+Pole to odpowiedzialne jest za przechowywanie informacji mowiacej o ilosci powtorzen algorytmu. Zmienna jest typu int. 
+
+Definition at line 35 of file dane.\-h.
+
+\hypertarget{classdane_aa684a7eacd6787f62b0ed1115efc88ad}{\index{dane@{dane}!tab\-\_\-czasow@{tab\-\_\-czasow}}
+\index{tab\-\_\-czasow@{tab\-\_\-czasow}!dane@{dane}}
+\subsubsection[{tab\-\_\-czasow}]{\setlength{\rightskip}{0pt plus 5cm}clock\-\_\-t$\ast$ dane\-::tab\-\_\-czasow}}\label{classdane_aa684a7eacd6787f62b0ed1115efc88ad}
+Pole to odpowiedzialne jest za przechowywanie czasow kazdego powtorzenia. Jest ono wskaznikiem na te tablice, ktora jest alokowana w sposob dynamiczny. Ilosc elementow okreslona jest przez ilosc powtorzen algorytmu. 
+
+Definition at line 60 of file dane.\-h.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{dane_8h}{dane.\-h}\item 
+\hyperlink{dane_8cpp}{dane.\-cpp}\end{DoxyCompactItemize}

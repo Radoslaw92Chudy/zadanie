@@ -1,0 +1,126 @@
+\begin{theindex}
+
+  \item {algorytm}, \hyperpage{7}
+    \subitem {dodaj\discretionary {-}{}{}\_\discretionary {-}{}{}element}, 
+		\hyperpage{8}
+    \subitem {dodaj\discretionary {-}{}{}\_\discretionary {-}{}{}elementy}, 
+		\hyperpage{8}
+    \subitem {elementy}, \hyperpage{11}
+    \subitem {odwroc\discretionary {-}{}{}\_\discretionary {-}{}{}tablice}, 
+		\hyperpage{8}
+    \subitem {operator=}, \hyperpage{9}
+    \subitem {pobierz\discretionary {-}{}{}\_\discretionary {-}{}{}czas}, 
+		\hyperpage{9}
+    \subitem {powtorzenia}, \hyperpage{11}
+    \subitem {sprawdz}, \hyperpage{9}
+    \subitem {tab\discretionary {-}{}{}\_\discretionary {-}{}{}danych}, 
+		\hyperpage{11}
+    \subitem {tab\discretionary {-}{}{}\_\discretionary {-}{}{}obliczone}, 
+		\hyperpage{11}
+    \subitem {tab\discretionary {-}{}{}\_\discretionary {-}{}{}sprawdzajace}, 
+		\hyperpage{11}
+    \subitem {test}, \hyperpage{9}
+    \subitem {wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}dane}, 
+		\hyperpage{10}
+    \subitem {wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}dane\discretionary {-}{}{}\_\discretionary {-}{}{}sprawdzajace}, 
+		\hyperpage{10}
+    \subitem {wykonaj\discretionary {-}{}{}\_\discretionary {-}{}{}obliczenia}, 
+		\hyperpage{11}
+    \subitem {zamien\discretionary {-}{}{}\_\discretionary {-}{}{}elementy}, 
+		\hyperpage{11}
+  \item {algorytm.\discretionary {-}{}{}cpp}, \hyperpage{15}
+  \item {algorytm.\discretionary {-}{}{}h}, \hyperpage{16}
+
+  \indexspace
+
+  \item {czas\discretionary {-}{}{}\_\discretionary {-}{}{}operacji}
+    \subitem {dane}, \hyperpage{13}
+
+  \indexspace
+
+  \item {dane}, \hyperpage{12}
+    \subitem {czas\discretionary {-}{}{}\_\discretionary {-}{}{}operacji}, 
+		\hyperpage{13}
+    \subitem {dane}, \hyperpage{12}
+    \subitem {odchylenie}, \hyperpage{13}
+    \subitem {powtorzenia}, \hyperpage{13}
+    \subitem {tab\discretionary {-}{}{}\_\discretionary {-}{}{}czasow}, 
+		\hyperpage{14}
+    \subitem {wylicz\discretionary {-}{}{}\_\discretionary {-}{}{}odchylenie}, 
+		\hyperpage{13}
+    \subitem {zapisz\discretionary {-}{}{}\_\discretionary {-}{}{}do\discretionary {-}{}{}\_\discretionary {-}{}{}csv}, 
+		\hyperpage{13}
+  \item {dane.\discretionary {-}{}{}cpp}, \hyperpage{17}
+  \item {dane.\discretionary {-}{}{}h}, \hyperpage{17}
+  \item {dodaj\discretionary {-}{}{}\_\discretionary {-}{}{}element}
+    \subitem {algorytm}, \hyperpage{8}
+  \item {dodaj\discretionary {-}{}{}\_\discretionary {-}{}{}elementy}
+    \subitem {algorytm}, \hyperpage{8}
+
+  \indexspace
+
+  \item {elementy}
+    \subitem {algorytm}, \hyperpage{11}
+
+  \indexspace
+
+  \item {main}
+    \subitem {main.\discretionary {-}{}{}cpp}, \hyperpage{19}
+  \item {main.\discretionary {-}{}{}cpp}, \hyperpage{18}
+    \subitem {main}, \hyperpage{19}
+
+  \indexspace
+
+  \item {odchylenie}
+    \subitem {dane}, \hyperpage{13}
+  \item {odwroc\discretionary {-}{}{}\_\discretionary {-}{}{}tablice}
+    \subitem {algorytm}, \hyperpage{8}
+  \item {operator=}
+    \subitem {algorytm}, \hyperpage{9}
+
+  \indexspace
+
+  \item {pobierz\discretionary {-}{}{}\_\discretionary {-}{}{}czas}
+    \subitem {algorytm}, \hyperpage{9}
+  \item {powtorzenia}
+    \subitem {algorytm}, \hyperpage{11}
+    \subitem {dane}, \hyperpage{13}
+
+  \indexspace
+
+  \item {sprawdz}
+    \subitem {algorytm}, \hyperpage{9}
+  \item {strona.\discretionary {-}{}{}dox}, \hyperpage{20}
+
+  \indexspace
+
+  \item {tab\discretionary {-}{}{}\_\discretionary {-}{}{}czasow}
+    \subitem {dane}, \hyperpage{14}
+  \item {tab\discretionary {-}{}{}\_\discretionary {-}{}{}danych}
+    \subitem {algorytm}, \hyperpage{11}
+  \item {tab\discretionary {-}{}{}\_\discretionary {-}{}{}obliczone}
+    \subitem {algorytm}, \hyperpage{11}
+  \item {tab\discretionary {-}{}{}\_\discretionary {-}{}{}sprawdzajace}
+    \subitem {algorytm}, \hyperpage{11}
+  \item {test}
+    \subitem {algorytm}, \hyperpage{9}
+
+  \indexspace
+
+  \item {wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}dane}
+    \subitem {algorytm}, \hyperpage{10}
+  \item {wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}dane\discretionary {-}{}{}\_\discretionary {-}{}{}sprawdzajace}
+    \subitem {algorytm}, \hyperpage{10}
+  \item {wykonaj\discretionary {-}{}{}\_\discretionary {-}{}{}obliczenia}
+    \subitem {algorytm}, \hyperpage{11}
+  \item {wylicz\discretionary {-}{}{}\_\discretionary {-}{}{}odchylenie}
+    \subitem {dane}, \hyperpage{13}
+
+  \indexspace
+
+  \item {zamien\discretionary {-}{}{}\_\discretionary {-}{}{}elementy}
+    \subitem {algorytm}, \hyperpage{11}
+  \item {zapisz\discretionary {-}{}{}\_\discretionary {-}{}{}do\discretionary {-}{}{}\_\discretionary {-}{}{}csv}
+    \subitem {dane}, \hyperpage{13}
+
+\end{theindex}

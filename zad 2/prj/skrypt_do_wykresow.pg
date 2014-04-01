@@ -1,0 +1,14 @@
+set title "Pomiar czasu wczytania danych"
+set xlabel "N"
+set ylabel "Czas sredni [s]"
+set xtics ("10" 10, "100" 100, "1000" 1000, "10000" 10000, "100000" 100000, "1000000" 1000000)
+set grid
+set logscale xy
+set xrange [10:2000000]
+set yrange [0.000001:1000]
+set terminal postscript eps color
+set output "wykres_dla_kolejkatabdod.eps"
+f(x)=x*log(x)
+g(x)=x**2
+h(x)=x
+plot 'dane_kolejkatabdod_10.csv' title 'N=10' with yerrorbars pointtype 2 pointsize 2, 'dane_kolejkatabdod_100.csv' title 'N=100' with yerrorbars pointtype 2 pointsize 2, 'dane_kolejkatabdod_1000.csv' title 'N=1000' with yerrorbars pointtype 2 pointsize 2, 'dane_kolejkatabdod_10000.csv' title 'N=10000' with yerrorbars pointtype 2 pointsize 2, 'dane_kolejkatabdod_100000.csv' title 'N=100000' with yerrorbars pointtype 2 pointsize 2,  f(x) title 'O(xlogx)',g(x) title 'O(x^2)', h(x) title 'O(x)'

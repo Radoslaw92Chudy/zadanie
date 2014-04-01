@@ -1,126 +1,295 @@
 \begin{theindex}
 
+  \item {$\sim $stostab}
+    \subitem {stostab}, \hyperpage{28}
+
+  \indexspace
+
   \item {algorytm}, \hyperpage{7}
-    \subitem {dodaj\discretionary {-}{}{}\_\discretionary {-}{}{}element}, 
-		\hyperpage{8}
-    \subitem {dodaj\discretionary {-}{}{}\_\discretionary {-}{}{}elementy}, 
-		\hyperpage{8}
-    \subitem {elementy}, \hyperpage{11}
-    \subitem {odwroc\discretionary {-}{}{}\_\discretionary {-}{}{}tablice}, 
-		\hyperpage{8}
-    \subitem {operator=}, \hyperpage{9}
-    \subitem {pobierz\discretionary {-}{}{}\_\discretionary {-}{}{}czas}, 
-		\hyperpage{9}
-    \subitem {powtorzenia}, \hyperpage{11}
-    \subitem {sprawdz}, \hyperpage{9}
-    \subitem {tab\discretionary {-}{}{}\_\discretionary {-}{}{}danych}, 
-		\hyperpage{11}
-    \subitem {tab\discretionary {-}{}{}\_\discretionary {-}{}{}obliczone}, 
-		\hyperpage{11}
-    \subitem {tab\discretionary {-}{}{}\_\discretionary {-}{}{}sprawdzajace}, 
-		\hyperpage{11}
-    \subitem {test}, \hyperpage{9}
-    \subitem {wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}dane}, 
-		\hyperpage{10}
-    \subitem {wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}dane\discretionary {-}{}{}\_\discretionary {-}{}{}sprawdzajace}, 
-		\hyperpage{10}
-    \subitem {wykonaj\discretionary {-}{}{}\_\discretionary {-}{}{}obliczenia}, 
-		\hyperpage{11}
-    \subitem {zamien\discretionary {-}{}{}\_\discretionary {-}{}{}elementy}, 
-		\hyperpage{11}
-  \item {algorytm.\discretionary {-}{}{}cpp}, \hyperpage{15}
-  \item {algorytm.\discretionary {-}{}{}h}, \hyperpage{16}
-
-  \indexspace
-
-  \item {czas\discretionary {-}{}{}\_\discretionary {-}{}{}operacji}
-    \subitem {dane}, \hyperpage{13}
-
-  \indexspace
-
-  \item {dane}, \hyperpage{12}
-    \subitem {czas\discretionary {-}{}{}\_\discretionary {-}{}{}operacji}, 
-		\hyperpage{13}
-    \subitem {dane}, \hyperpage{12}
-    \subitem {odchylenie}, \hyperpage{13}
-    \subitem {powtorzenia}, \hyperpage{13}
-    \subitem {tab\discretionary {-}{}{}\_\discretionary {-}{}{}czasow}, 
+    \subitem {czas\discretionary {-}{}{}\_\discretionary {-}{}{}nsec}, 
 		\hyperpage{14}
+    \subitem {czas\discretionary {-}{}{}\_\discretionary {-}{}{}sec}, 
+		\hyperpage{14}
+    \subitem {dodaj\discretionary {-}{}{}\_\discretionary {-}{}{}element}, 
+		\hyperpage{9}
+    \subitem {dodaj\discretionary {-}{}{}\_\discretionary {-}{}{}elementy}, 
+		\hyperpage{9}
+    \subitem {elementy}, \hyperpage{14}
+    \subitem {kolejkalista}, \hyperpage{14}
+    \subitem {kolejkatablica}, \hyperpage{14}
+    \subitem {odwroc\discretionary {-}{}{}\_\discretionary {-}{}{}tablice}, 
+		\hyperpage{9}
+    \subitem {operator=}, \hyperpage{9}
+    \subitem {powtorzenia}, \hyperpage{14}
+    \subitem {sprawdz}, \hyperpage{10}
+    \subitem {stos}, \hyperpage{15}
+    \subitem {stoslista}, \hyperpage{15}
+    \subitem {tab\discretionary {-}{}{}\_\discretionary {-}{}{}danych}, 
+		\hyperpage{15}
+    \subitem {tab\discretionary {-}{}{}\_\discretionary {-}{}{}obliczone}, 
+		\hyperpage{15}
+    \subitem {tab\discretionary {-}{}{}\_\discretionary {-}{}{}sprawdzajace}, 
+		\hyperpage{15}
+    \subitem {test}, \hyperpage{10}
+    \subitem {test\discretionary {-}{}{}\_\discretionary {-}{}{}wczytania}, 
+		\hyperpage{10}
+    \subitem {wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}dane}, 
+		\hyperpage{12}
+    \subitem {wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}dane\discretionary {-}{}{}\_\discretionary {-}{}{}kolejkalist}, 
+		\hyperpage{12}
+    \subitem {wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}dane\discretionary {-}{}{}\_\discretionary {-}{}{}kolejkatab}, 
+		\hyperpage{12}
+    \subitem {wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}dane\discretionary {-}{}{}\_\discretionary {-}{}{}sprawdzajace}, 
+		\hyperpage{13}
+    \subitem {wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}dane\discretionary {-}{}{}\_\discretionary {-}{}{}stoslista}, 
+		\hyperpage{13}
+    \subitem {wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}dane\discretionary {-}{}{}\_\discretionary {-}{}{}stostab}, 
+		\hyperpage{13}
+    \subitem {wlacz\discretionary {-}{}{}\_\discretionary {-}{}{}zegar}, 
+		\hyperpage{13}
+    \subitem {wykonaj\discretionary {-}{}{}\_\discretionary {-}{}{}obliczenia}, 
+		\hyperpage{13}
+    \subitem {wylacz\discretionary {-}{}{}\_\discretionary {-}{}{}zegar}, 
+		\hyperpage{13}
+    \subitem {zamien\discretionary {-}{}{}\_\discretionary {-}{}{}elementy}, 
+		\hyperpage{14}
+  \item {algorytm.\discretionary {-}{}{}cpp}, \hyperpage{31}
+  \item {algorytm.\discretionary {-}{}{}h}, \hyperpage{32}
+
+  \indexspace
+
+  \item {clear}
+    \subitem {kolejkatab}, \hyperpage{22}
+    \subitem {stostab}, \hyperpage{28}
+  \item {czas\discretionary {-}{}{}\_\discretionary {-}{}{}nsec}
+    \subitem {algorytm}, \hyperpage{14}
+  \item {czas\discretionary {-}{}{}\_\discretionary {-}{}{}operacji}
+    \subitem {dane}, \hyperpage{17}
+  \item {czas\discretionary {-}{}{}\_\discretionary {-}{}{}sec}
+    \subitem {algorytm}, \hyperpage{14}
+
+  \indexspace
+
+  \item {dane}, \hyperpage{15}
+    \subitem {czas\discretionary {-}{}{}\_\discretionary {-}{}{}operacji}, 
+		\hyperpage{17}
+    \subitem {dane}, \hyperpage{16}
+    \subitem {odchylenie}, \hyperpage{17}
+    \subitem {powtorzenia}, \hyperpage{17}
+    \subitem {tab\discretionary {-}{}{}\_\discretionary {-}{}{}czasow}, 
+		\hyperpage{17}
     \subitem {wylicz\discretionary {-}{}{}\_\discretionary {-}{}{}odchylenie}, 
-		\hyperpage{13}
+		\hyperpage{16}
     \subitem {zapisz\discretionary {-}{}{}\_\discretionary {-}{}{}do\discretionary {-}{}{}\_\discretionary {-}{}{}csv}, 
-		\hyperpage{13}
-  \item {dane.\discretionary {-}{}{}cpp}, \hyperpage{17}
-  \item {dane.\discretionary {-}{}{}h}, \hyperpage{17}
+		\hyperpage{16}
+  \item {dane.\discretionary {-}{}{}cpp}, \hyperpage{33}
+  \item {dane.\discretionary {-}{}{}h}, \hyperpage{33}
+  \item {dequeue}
+    \subitem {kolejkalist}, \hyperpage{19}
+    \subitem {kolejkatab}, \hyperpage{22}
   \item {dodaj\discretionary {-}{}{}\_\discretionary {-}{}{}element}
-    \subitem {algorytm}, \hyperpage{8}
+    \subitem {algorytm}, \hyperpage{9}
   \item {dodaj\discretionary {-}{}{}\_\discretionary {-}{}{}elementy}
-    \subitem {algorytm}, \hyperpage{8}
+    \subitem {algorytm}, \hyperpage{9}
 
   \indexspace
 
   \item {elementy}
-    \subitem {algorytm}, \hyperpage{11}
+    \subitem {algorytm}, \hyperpage{14}
+  \item {empty}
+    \subitem {kolejkalist}, \hyperpage{19}
+    \subitem {kolejkatab}, \hyperpage{22}
+    \subitem {stoslist}, \hyperpage{25}
+    \subitem {stostab}, \hyperpage{28}
+  \item {enqueue}
+    \subitem {kolejkalist}, \hyperpage{19}
+  \item {enqueue\discretionary {-}{}{}\_\discretionary {-}{}{}dod}
+    \subitem {kolejkatab}, \hyperpage{23}
+  \item {enqueue\discretionary {-}{}{}\_\discretionary {-}{}{}pom}
+    \subitem {kolejkatab}, \hyperpage{23}
+
+  \indexspace
+
+  \item {ilosc}
+    \subitem {kolejkatab}, \hyperpage{24}
+    \subitem {stostab}, \hyperpage{30}
+
+  \indexspace
+
+  \item {kolejka.\discretionary {-}{}{}h}, \hyperpage{34}
+  \item {kolejkalist}
+    \subitem {dequeue}, \hyperpage{19}
+    \subitem {empty}, \hyperpage{19}
+    \subitem {enqueue}, \hyperpage{19}
+    \subitem {kolejkalist}, \hyperpage{19}
+    \subitem {lista}, \hyperpage{20}
+    \subitem {pierwszy}, \hyperpage{20}
+    \subitem {size}, \hyperpage{20}
+  \item {kolejkalist$<$ T\discretionary {-}{}{}Y\discretionary {-}{}{}P $>$}, 
+		\hyperpage{18}
+  \item {kolejkalista}
+    \subitem {algorytm}, \hyperpage{14}
+  \item {kolejkatab}
+    \subitem {clear}, \hyperpage{22}
+    \subitem {dequeue}, \hyperpage{22}
+    \subitem {empty}, \hyperpage{22}
+    \subitem {enqueue\discretionary {-}{}{}\_\discretionary {-}{}{}dod}, 
+		\hyperpage{23}
+    \subitem {enqueue\discretionary {-}{}{}\_\discretionary {-}{}{}pom}, 
+		\hyperpage{23}
+    \subitem {ilosc}, \hyperpage{24}
+    \subitem {kolejkatab}, \hyperpage{22}
+    \subitem {pierwszy}, \hyperpage{24}
+    \subitem {rozmiar}, \hyperpage{24}
+    \subitem {size}, \hyperpage{23}
+    \subitem {tab}, \hyperpage{24}
+    \subitem {tworz}, \hyperpage{23}
+  \item {kolejkatab$<$ T\discretionary {-}{}{}Y\discretionary {-}{}{}P $>$}, 
+		\hyperpage{20}
+  \item {kolejkatablica}
+    \subitem {algorytm}, \hyperpage{14}
+
+  \indexspace
+
+  \item {lista}
+    \subitem {kolejkalist}, \hyperpage{20}
+    \subitem {stoslist}, \hyperpage{26}
 
   \indexspace
 
   \item {main}
-    \subitem {main.\discretionary {-}{}{}cpp}, \hyperpage{19}
-  \item {main.\discretionary {-}{}{}cpp}, \hyperpage{18}
-    \subitem {main}, \hyperpage{19}
+    \subitem {main.\discretionary {-}{}{}cpp}, \hyperpage{36}
+  \item {main.\discretionary {-}{}{}cpp}, \hyperpage{36}
+    \subitem {main}, \hyperpage{36}
 
   \indexspace
 
   \item {odchylenie}
-    \subitem {dane}, \hyperpage{13}
+    \subitem {dane}, \hyperpage{17}
   \item {odwroc\discretionary {-}{}{}\_\discretionary {-}{}{}tablice}
-    \subitem {algorytm}, \hyperpage{8}
+    \subitem {algorytm}, \hyperpage{9}
   \item {operator=}
     \subitem {algorytm}, \hyperpage{9}
+  \item {ostatni}
+    \subitem {stoslist}, \hyperpage{26}
+    \subitem {stostab}, \hyperpage{30}
 
   \indexspace
 
-  \item {pobierz\discretionary {-}{}{}\_\discretionary {-}{}{}czas}
-    \subitem {algorytm}, \hyperpage{9}
+  \item {pierwszy}
+    \subitem {kolejkalist}, \hyperpage{20}
+    \subitem {kolejkatab}, \hyperpage{24}
+  \item {pop}
+    \subitem {stoslist}, \hyperpage{25}
+    \subitem {stostab}, \hyperpage{29}
   \item {powtorzenia}
-    \subitem {algorytm}, \hyperpage{11}
-    \subitem {dane}, \hyperpage{13}
+    \subitem {algorytm}, \hyperpage{14}
+    \subitem {dane}, \hyperpage{17}
+  \item {push}
+    \subitem {stoslist}, \hyperpage{25}
+  \item {push\discretionary {-}{}{}\_\discretionary {-}{}{}dod}
+    \subitem {stostab}, \hyperpage{29}
+  \item {push\discretionary {-}{}{}\_\discretionary {-}{}{}pom}
+    \subitem {stostab}, \hyperpage{29}
 
   \indexspace
 
+  \item {rozmiar}
+    \subitem {kolejkatab}, \hyperpage{24}
+    \subitem {stostab}, \hyperpage{30}
+
+  \indexspace
+
+  \item {size}
+    \subitem {kolejkalist}, \hyperpage{20}
+    \subitem {kolejkatab}, \hyperpage{23}
+    \subitem {stoslist}, \hyperpage{26}
+    \subitem {stostab}, \hyperpage{29}
   \item {sprawdz}
-    \subitem {algorytm}, \hyperpage{9}
-  \item {strona.\discretionary {-}{}{}dox}, \hyperpage{20}
+    \subitem {algorytm}, \hyperpage{10}
+  \item {stos}
+    \subitem {algorytm}, \hyperpage{15}
+  \item {stos.\discretionary {-}{}{}h}, \hyperpage{37}
+  \item {stoslist}
+    \subitem {empty}, \hyperpage{25}
+    \subitem {lista}, \hyperpage{26}
+    \subitem {ostatni}, \hyperpage{26}
+    \subitem {pop}, \hyperpage{25}
+    \subitem {push}, \hyperpage{25}
+    \subitem {size}, \hyperpage{26}
+  \item {stoslist$<$ T\discretionary {-}{}{}Y\discretionary {-}{}{}P $>$}, 
+		\hyperpage{24}
+  \item {stoslista}
+    \subitem {algorytm}, \hyperpage{15}
+  \item {stostab}
+    \subitem {$\sim $stostab}, \hyperpage{28}
+    \subitem {clear}, \hyperpage{28}
+    \subitem {empty}, \hyperpage{28}
+    \subitem {ilosc}, \hyperpage{30}
+    \subitem {ostatni}, \hyperpage{30}
+    \subitem {pop}, \hyperpage{29}
+    \subitem {push\discretionary {-}{}{}\_\discretionary {-}{}{}dod}, 
+		\hyperpage{29}
+    \subitem {push\discretionary {-}{}{}\_\discretionary {-}{}{}pom}, 
+		\hyperpage{29}
+    \subitem {rozmiar}, \hyperpage{30}
+    \subitem {size}, \hyperpage{29}
+    \subitem {stostab}, \hyperpage{28}
+    \subitem {tab}, \hyperpage{30}
+    \subitem {tworz}, \hyperpage{30}
+  \item {stostab$<$ T\discretionary {-}{}{}Y\discretionary {-}{}{}P $>$}, 
+		\hyperpage{26}
+  \item {strona.\discretionary {-}{}{}dox}, \hyperpage{38}
 
   \indexspace
 
+  \item {tab}
+    \subitem {kolejkatab}, \hyperpage{24}
+    \subitem {stostab}, \hyperpage{30}
   \item {tab\discretionary {-}{}{}\_\discretionary {-}{}{}czasow}
-    \subitem {dane}, \hyperpage{14}
+    \subitem {dane}, \hyperpage{17}
   \item {tab\discretionary {-}{}{}\_\discretionary {-}{}{}danych}
-    \subitem {algorytm}, \hyperpage{11}
+    \subitem {algorytm}, \hyperpage{15}
   \item {tab\discretionary {-}{}{}\_\discretionary {-}{}{}obliczone}
-    \subitem {algorytm}, \hyperpage{11}
+    \subitem {algorytm}, \hyperpage{15}
   \item {tab\discretionary {-}{}{}\_\discretionary {-}{}{}sprawdzajace}
-    \subitem {algorytm}, \hyperpage{11}
+    \subitem {algorytm}, \hyperpage{15}
   \item {test}
-    \subitem {algorytm}, \hyperpage{9}
+    \subitem {algorytm}, \hyperpage{10}
+  \item {test\discretionary {-}{}{}\_\discretionary {-}{}{}wczytania}
+    \subitem {algorytm}, \hyperpage{10}
+  \item {tworz}
+    \subitem {kolejkatab}, \hyperpage{23}
+    \subitem {stostab}, \hyperpage{30}
 
   \indexspace
 
   \item {wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}dane}
-    \subitem {algorytm}, \hyperpage{10}
+    \subitem {algorytm}, \hyperpage{12}
+  \item {wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}dane\discretionary {-}{}{}\_\discretionary {-}{}{}kolejkalist}
+    \subitem {algorytm}, \hyperpage{12}
+  \item {wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}dane\discretionary {-}{}{}\_\discretionary {-}{}{}kolejkatab}
+    \subitem {algorytm}, \hyperpage{12}
   \item {wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}dane\discretionary {-}{}{}\_\discretionary {-}{}{}sprawdzajace}
-    \subitem {algorytm}, \hyperpage{10}
+    \subitem {algorytm}, \hyperpage{13}
+  \item {wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}dane\discretionary {-}{}{}\_\discretionary {-}{}{}stoslista}
+    \subitem {algorytm}, \hyperpage{13}
+  \item {wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}dane\discretionary {-}{}{}\_\discretionary {-}{}{}stostab}
+    \subitem {algorytm}, \hyperpage{13}
+  \item {wlacz\discretionary {-}{}{}\_\discretionary {-}{}{}zegar}
+    \subitem {algorytm}, \hyperpage{13}
   \item {wykonaj\discretionary {-}{}{}\_\discretionary {-}{}{}obliczenia}
-    \subitem {algorytm}, \hyperpage{11}
+    \subitem {algorytm}, \hyperpage{13}
+  \item {wylacz\discretionary {-}{}{}\_\discretionary {-}{}{}zegar}
+    \subitem {algorytm}, \hyperpage{13}
   \item {wylicz\discretionary {-}{}{}\_\discretionary {-}{}{}odchylenie}
-    \subitem {dane}, \hyperpage{13}
+    \subitem {dane}, \hyperpage{16}
 
   \indexspace
 
   \item {zamien\discretionary {-}{}{}\_\discretionary {-}{}{}elementy}
-    \subitem {algorytm}, \hyperpage{11}
+    \subitem {algorytm}, \hyperpage{14}
   \item {zapisz\discretionary {-}{}{}\_\discretionary {-}{}{}do\discretionary {-}{}{}\_\discretionary {-}{}{}csv}
-    \subitem {dane}, \hyperpage{13}
+    \subitem {dane}, \hyperpage{16}
 
 \end{theindex}

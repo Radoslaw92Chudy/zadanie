@@ -1,0 +1,159 @@
+\hypertarget{classkolejkalist}{\section{kolejkalist$<$ T\-Y\-P $>$ Class Template Reference}
+\label{classkolejkalist}\index{kolejkalist$<$ T\-Y\-P $>$@{kolejkalist$<$ T\-Y\-P $>$}}
+}
+
+
+Definicja klasy kolejkalist.  
+
+
+
+
+{\ttfamily \#include $<$kolejka.\-h$>$}
+
+
+
+Inheritance diagram for kolejkalist$<$ T\-Y\-P $>$\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=178pt]{classkolejkalist__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for kolejkalist$<$ T\-Y\-P $>$\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=178pt]{classkolejkalist__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classkolejkalist_a90513e8c4cc0551dbe4e7d6bc2bbc1ee}{kolejkalist} ()
+\begin{DoxyCompactList}\small\item\em Konstruktor klasy kolejkalist. \end{DoxyCompactList}\item 
+int \hyperlink{classkolejkalist_a9ebc4dc0f552161532501b6e7d6483ae}{size} ()
+\begin{DoxyCompactList}\small\item\em Metoda size. \end{DoxyCompactList}\item 
+bool \hyperlink{classkolejkalist_a5cfccf441eb0fab70fb7f03d1f5edc23}{empty} ()
+\begin{DoxyCompactList}\small\item\em Metoda empty. \end{DoxyCompactList}\item 
+void \hyperlink{classkolejkalist_adda98f8350ae43dbef3367e2f0d90735}{enqueue} (T\-Y\-P element)
+\begin{DoxyCompactList}\small\item\em Metoda enqueue. \end{DoxyCompactList}\item 
+void \hyperlink{classkolejkalist_a06f0c76eb9579d6dd76ff354f2c16b1c}{dequeue} ()
+\begin{DoxyCompactList}\small\item\em Metoda dequeue. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+list$<$ T\-Y\-P $>$ \hyperlink{classkolejkalist_a303c82cb7875fd2779679a0e937900c0}{lista}
+\begin{DoxyCompactList}\small\item\em Pole lista. \end{DoxyCompactList}\item 
+T\-Y\-P \hyperlink{classkolejkalist_a62f458a961a2179f5c8977bae73fe42b}{pierwszy}
+\begin{DoxyCompactList}\small\item\em Pole pierwszy. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\subsubsection*{template$<$typename T\-Y\-P$>$class kolejkalist$<$ T\-Y\-P $>$}
+
+Szablon klasy kolejkalist jest implementacja listy na bazie listy z kontenera S\-T\-L. W sklad szablonu wchodzi szablon listy oraz pole klasy pierwszy typu T\-Y\-P przechowujacy pierwszy element po wykonaniu operacji pobrania elemnetu. 
+
+Definition at line 29 of file kolejka.\-h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classkolejkalist_a90513e8c4cc0551dbe4e7d6bc2bbc1ee}{\index{kolejkalist@{kolejkalist}!kolejkalist@{kolejkalist}}
+\index{kolejkalist@{kolejkalist}!kolejkalist@{kolejkalist}}
+\subsubsection[{kolejkalist}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T\-Y\-P$>$ {\bf kolejkalist}$<$ T\-Y\-P $>$\-::{\bf kolejkalist} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classkolejkalist_a90513e8c4cc0551dbe4e7d6bc2bbc1ee}
+W konstruktorze klasy inicjalizowana jest wartosc zmiennej pierwszy. 
+
+Definition at line 54 of file kolejka.\-h.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classkolejkalist_a06f0c76eb9579d6dd76ff354f2c16b1c}{\index{kolejkalist@{kolejkalist}!dequeue@{dequeue}}
+\index{dequeue@{dequeue}!kolejkalist@{kolejkalist}}
+\subsubsection[{dequeue}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T\-Y\-P$>$ void {\bf kolejkalist}$<$ T\-Y\-P $>$\-::dequeue (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classkolejkalist_a06f0c76eb9579d6dd76ff354f2c16b1c}
+Metoda ta zabiera pierwszy element znajdujacy sie w kolejce. Nie przyjmuje zadnych argumentow oraz nie zwraca zadnych wartosci. W przypadku braku elementow w kolejce uzytkownik jest informowany o tym fakcie odpowiednim komunikatem. 
+
+Definition at line 108 of file kolejka.\-h.
+
+\hypertarget{classkolejkalist_a5cfccf441eb0fab70fb7f03d1f5edc23}{\index{kolejkalist@{kolejkalist}!empty@{empty}}
+\index{empty@{empty}!kolejkalist@{kolejkalist}}
+\subsubsection[{empty}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T\-Y\-P$>$ bool {\bf kolejkalist}$<$ T\-Y\-P $>$\-::empty (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classkolejkalist_a5cfccf441eb0fab70fb7f03d1f5edc23}
+Metoda ta sprawdza czy w kolejce znajduja sie jakiekolwiek elementy. Sprawdza ona warunek czy rozmiar kolejki zwracany w metodzie size jest rowny 0. Jeśli tak to zwraca wartosc logiczna true jesli nie to zwraca wartosc false. Metoda nie pobiera zadnych argumentow.
+
+\begin{DoxyReturn}{Returns}
+Zwraca wartosc logiczna w zaleznosci od wyniku operacji porownania 
+\end{DoxyReturn}
+
+
+Definition at line 80 of file kolejka.\-h.
+
+\hypertarget{classkolejkalist_adda98f8350ae43dbef3367e2f0d90735}{\index{kolejkalist@{kolejkalist}!enqueue@{enqueue}}
+\index{enqueue@{enqueue}!kolejkalist@{kolejkalist}}
+\subsubsection[{enqueue}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T\-Y\-P$>$ void {\bf kolejkalist}$<$ T\-Y\-P $>$\-::enqueue (
+\begin{DoxyParamCaption}
+\item[{T\-Y\-P}]{element}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classkolejkalist_adda98f8350ae43dbef3367e2f0d90735}
+Metoda enqueue dodaje element na koniec kolejki. Wykorzystuje do tego metode z szablonu listy push\-\_\-back ktora dodaje element na koniec listy. Metoda pobiera argument element typu T\-Y\-P. Nie zwraca zadnych wartosci.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em element} & -\/ element ktory ma byc dolozony na koniec kolejki \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 97 of file kolejka.\-h.
+
+\hypertarget{classkolejkalist_a9ebc4dc0f552161532501b6e7d6483ae}{\index{kolejkalist@{kolejkalist}!size@{size}}
+\index{size@{size}!kolejkalist@{kolejkalist}}
+\subsubsection[{size}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T\-Y\-P$>$ int {\bf kolejkalist}$<$ T\-Y\-P $>$\-::size (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classkolejkalist_a9ebc4dc0f552161532501b6e7d6483ae}
+Metoda size podaje ilosc elementow znajdujacych sie w kolejce. Zwraca wynik funkci size z szablonu listy. Wartosc ta jest typu calkowitego.
+
+\begin{DoxyReturn}{Returns}
+Zwraca ilosc elementow w kolejce 
+\end{DoxyReturn}
+
+
+Definition at line 66 of file kolejka.\-h.
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classkolejkalist_a303c82cb7875fd2779679a0e937900c0}{\index{kolejkalist@{kolejkalist}!lista@{lista}}
+\index{lista@{lista}!kolejkalist@{kolejkalist}}
+\subsubsection[{lista}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T\-Y\-P$>$ list$<$T\-Y\-P$>$ {\bf kolejkalist}$<$ T\-Y\-P $>$\-::lista}}\label{classkolejkalist_a303c82cb7875fd2779679a0e937900c0}
+Pole lista jest szablonem listy zmiennych typu T\-Y\-P. W niej przechowywane sa elementy ktore dodawane sa do kolejki. 
+
+Definition at line 38 of file kolejka.\-h.
+
+\hypertarget{classkolejkalist_a62f458a961a2179f5c8977bae73fe42b}{\index{kolejkalist@{kolejkalist}!pierwszy@{pierwszy}}
+\index{pierwszy@{pierwszy}!kolejkalist@{kolejkalist}}
+\subsubsection[{pierwszy}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T\-Y\-P$>$ T\-Y\-P {\bf kolejkalist}$<$ T\-Y\-P $>$\-::pierwszy}}\label{classkolejkalist_a62f458a961a2179f5c8977bae73fe42b}
+Pole pierwszy jest zmienna typu takiego jaki zostanie podany przez uzytkownika w momencie tworzenia obiektu. Przechowywana w nim jest wartosc elementu ktory jako ostatni zostal pobrany z kolejki. 
+
+Definition at line 47 of file kolejka.\-h.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{kolejka_8h}{kolejka.\-h}\end{DoxyCompactItemize}

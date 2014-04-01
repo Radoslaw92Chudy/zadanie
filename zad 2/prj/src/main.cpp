@@ -2,6 +2,8 @@
 #include <cstdlib>
 #include "dane.h"
 #include "algorytm.h"
+#include "stos.h"
+#include "kolejka.h"
 
 using namespace std;
 /*!
@@ -19,8 +21,7 @@ using namespace std;
 
 int main(){
 	algorytm Algo;
-	cout<<"Podaj ilosc powtorzen algorytmu"<<endl;
-	//cin>>Algo.powtorzenia;
+	cout<<"Podaj ilosc powtorzen wczytywania"<<endl;
 	while(!(cin>>Algo.powtorzenia)){
 		cerr<<"Blad podanej ilosci powtorzen. Musisz podac liczbe!"<<endl;
 		cin.clear();
@@ -29,6 +30,7 @@ int main(){
 	}
 	dane Info(Algo.powtorzenia);
 	dane *wsk=&Info;
-	Algo.test(wsk);
+	Algo.test_wczytania(wsk);
+	cout<<"koniec programu"<<endl;
 	return 0;
 }

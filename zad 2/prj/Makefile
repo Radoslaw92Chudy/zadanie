@@ -7,13 +7,13 @@ __start__: obj ${PROG}
 obj:
 	mkdir obj
 
-${PROG}: obj/main.o obj/dane.o obj/algorytm.o 
+${PROG}: obj/main.o obj/dane.o obj/algorytm.o
 	g++ -Wall -o ${PROG} obj/main.o obj/dane.o obj/algorytm.o 
 
-obj/main.o: inc/algorytm.h src/main.cpp
+obj/main.o: inc/algorytm.h src/main.cpp 
 	g++ -c -Wall -pedantic -Iinc -o obj/main.o src/main.cpp
 
-obj/algorytm.o: inc/dane.h inc/algorytm.h src/algorytm.cpp
+obj/algorytm.o: inc/dane.h inc/algorytm.h inc/stos.h inc/kolejka.h src/algorytm.cpp
 	g++ -c -Wall -pedantic -Iinc -o obj/algorytm.o src/algorytm.cpp
 
 obj/dane.o: inc/dane.h src/dane.cpp

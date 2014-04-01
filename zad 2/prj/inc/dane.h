@@ -38,9 +38,9 @@ public:
 	 *
 	 * Pole to odpowiedzialne jest za przechowywanie
 	 * informacji mowiacej w jakim czasie wykonano wszystkie
-	 * powtorzenia algorytmu. Zmienna jest typu clock_t.
+	 * powtorzenia algorytmu. Zmienna jest typu double.
 	 */
-	clock_t czas_operacji;
+	double czas_operacji;
 	/*!
 	 *\brief Pole odchylenie
 	 *
@@ -57,7 +57,7 @@ public:
 	 * tablice, ktora jest alokowana w sposob dynamiczny. Ilosc
 	 * elementow okreslona jest przez ilosc powtorzen algorytmu.
 	 */
-	clock_t *tab_czasow;
+	double *tab_czasow;
 	/*!
 	 *\brief Konstruktor parametryczny
 	 *

@@ -18,7 +18,7 @@ using namespace std;
  *
  */
 	dane::dane(int powtorzenia){
-		tab_czasow=new clock_t[powtorzenia];
+		tab_czasow=new double[powtorzenia];
 	}
 	void dane::wylicz_odchylenie(){
 		double suma=0;
@@ -26,25 +26,18 @@ using namespace std;
 		double srednia=0;
 		int i;
 		for(i=0;i<powtorzenia;i++){
-			suma+=suma+tab_czasow[i];
+			suma=suma+tab_czasow[i];
 		}
 		srednia=suma/powtorzenia;
+		czas_operacji=srednia;
 		for(i=0;i<powtorzenia;i++){
-			suma_kwadratow+=suma_kwadratow+(tab_czasow[i]-srednia)*(tab_czasow[i]-srednia);
+			suma_kwadratow=suma_kwadratow+(tab_czasow[i]-srednia)*(tab_czasow[i]-srednia);
 		}
 		odchylenie=sqrt(suma_kwadratow/(powtorzenia-1));
 	}
 	void dane::zapisz_do_csv(){
 		fstream plikcsv;
-		int i=0;
-		plikcsv.open("dane.csv", ios::out); 
-		plikcsv<<"Powtorzenia,"<<powtorzenia<<"\n";
-  		plikcsv<<"Powtorzenie,"<<"Czas"<<endl;
-  		for(i=0;i<powtorzenia;i++){
-  			plikcsv<<i+1<<","<<tab_czasow[i]<<"\n";
-  		}
-  		czas_operacji=((float)(tab_czasow[i]-tab_czasow[0]))/CLOCKS_PER_SEC;
-  		plikcsv<<"Czas Operacji,"<<czas_operacji<<"\n";
-      	plikcsv<<"Odchy.standardowe,"<<odchylenie<<"\n"; 
+		plikcsv.open("dane_kolejkatabdod_1000000.csv", ios::out);
+  		plikcsv<<1000000<<" "<<czas_operacji<<" "<<odchylenie; 
   		plikcsv.close();
 	}

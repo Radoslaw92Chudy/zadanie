@@ -1,0 +1,41 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2014.3.6)  31 MAR 2014 08:09
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**sprawozdanie.tex
+(./sprawozdanie.tex
+LaTeX2e <2011/06/27>
+Babel <3.9f> and hyphenation patterns for 2 languages loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+! Argument of \@fileswith@pti@ns has an extra }.
+<inserted text> 
+                \par 
+l.4 \usepackage[utf8]
+                     
+? X
+ 
+Here is how much of TeX's memory you used:
+ 196 strings out of 495032
+ 2122 string characters out of 6181558
+ 46786 words of memory out of 5000000
+ 3495 multiletter control sequences out of 15000+600000
+ 3940 words of font info for 15 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 21i,0n,19p,143b,36s stack positions out of 5000i,500n,10000p,200000b,80000s
+No pages of output.

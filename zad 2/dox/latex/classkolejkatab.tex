@@ -1,0 +1,233 @@
+\hypertarget{classkolejkatab}{\section{kolejkatab$<$ T\-Y\-P $>$ Class Template Reference}
+\label{classkolejkatab}\index{kolejkatab$<$ T\-Y\-P $>$@{kolejkatab$<$ T\-Y\-P $>$}}
+}
+
+
+Szablon klasy kolejkatab.  
+
+
+
+
+{\ttfamily \#include $<$kolejka.\-h$>$}
+
+
+
+Inheritance diagram for kolejkatab$<$ T\-Y\-P $>$\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=178pt]{classkolejkatab__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for kolejkatab$<$ T\-Y\-P $>$\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=178pt]{classkolejkatab__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classkolejkatab_ae8f978affe7d275f38b432ba89eddce7}{kolejkatab} ()
+\begin{DoxyCompactList}\small\item\em Konstruktor klasy kolejkatab. \end{DoxyCompactList}\item 
+T\-Y\-P $\ast$ \hyperlink{classkolejkatab_a19cfea1a6282ec8a3e7f7d903bad4ec0}{tworz} (int N)
+\begin{DoxyCompactList}\small\item\em Metoda tworz. \end{DoxyCompactList}\item 
+bool \hyperlink{classkolejkatab_a3a15f6d2fe43f387e60d63f11b68d0a5}{empty} ()
+\begin{DoxyCompactList}\small\item\em Metoda empty. \end{DoxyCompactList}\item 
+int \hyperlink{classkolejkatab_ab2bd484f25e38850871321cf8c695271}{size} ()
+\begin{DoxyCompactList}\small\item\em Metoda size. \end{DoxyCompactList}\item 
+void \hyperlink{classkolejkatab_a6ba37d3ed63eb91be0ec150dc0646c50}{enqueue\-\_\-dod} (T\-Y\-P element)
+\begin{DoxyCompactList}\small\item\em Metoda enqueue\-\_\-dod. \end{DoxyCompactList}\item 
+void \hyperlink{classkolejkatab_a1f4b14e081aef543ff4e08e2060042cb}{enqueue\-\_\-pom} (T\-Y\-P element)
+\begin{DoxyCompactList}\small\item\em Metoda enqueue\-\_\-pom. \end{DoxyCompactList}\item 
+void \hyperlink{classkolejkatab_ae15cc5e580f16def922ce447f38dbab5}{dequeue} ()
+\begin{DoxyCompactList}\small\item\em Metoda dequeue. \end{DoxyCompactList}\item 
+void \hyperlink{classkolejkatab_ab7b360e73b75756d96a1aa6a102e7318}{clear} ()
+\begin{DoxyCompactList}\small\item\em Metoda clear. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{classkolejkatab_a77ad076380322b9698305c608aab6637}{rozmiar}
+\begin{DoxyCompactList}\small\item\em Pole rozmiar. \end{DoxyCompactList}\item 
+T\-Y\-P $\ast$ \hyperlink{classkolejkatab_a91ec1706d1e10ce7f781a5102c4b59b8}{tab}
+\begin{DoxyCompactList}\small\item\em Pole wskaznika na tablice. \end{DoxyCompactList}\item 
+unsigned int \hyperlink{classkolejkatab_a161d4a2c4e17bd942ca79ae3a421ff34}{ilosc}
+\begin{DoxyCompactList}\small\item\em Pole ilosc. \end{DoxyCompactList}\item 
+T\-Y\-P \hyperlink{classkolejkatab_a9eac0eb1ac26bedc608938e7865b6352}{pierwszy}
+\begin{DoxyCompactList}\small\item\em Pole pierwszy. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\subsubsection*{template$<$typename T\-Y\-P$>$class kolejkatab$<$ T\-Y\-P $>$}
+
+Szablon klasy kolejkatab jest implementacja kolejki w oparciu o tablice alokowana dynamicznie. W szablonie znajduja sie wszystkie niezbedne metody do poprawnego funkcjonowania obiektow jako kolejek. 
+
+Definition at line 128 of file kolejka.\-h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classkolejkatab_ae8f978affe7d275f38b432ba89eddce7}{\index{kolejkatab@{kolejkatab}!kolejkatab@{kolejkatab}}
+\index{kolejkatab@{kolejkatab}!kolejkatab@{kolejkatab}}
+\subsubsection[{kolejkatab}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T\-Y\-P$>$ {\bf kolejkatab}$<$ T\-Y\-P $>$\-::{\bf kolejkatab} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classkolejkatab_ae8f978affe7d275f38b432ba89eddce7}
+Konstruktor klasy kolejkatab. W nim przypisywana jest wartosc poczatkowa polom ilosc oraz rozmiar. 
+
+Definition at line 167 of file kolejka.\-h.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classkolejkatab_ab7b360e73b75756d96a1aa6a102e7318}{\index{kolejkatab@{kolejkatab}!clear@{clear}}
+\index{clear@{clear}!kolejkatab@{kolejkatab}}
+\subsubsection[{clear}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T\-Y\-P$>$ void {\bf kolejkatab}$<$ T\-Y\-P $>$\-::clear (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classkolejkatab_ab7b360e73b75756d96a1aa6a102e7318}
+Metoda wykonujaca operacje sciagniecia wszytskich elementow z kolejki. Zapobiega przed nadpisywaniem wartosci. 
+
+Definition at line 329 of file kolejka.\-h.
+
+\hypertarget{classkolejkatab_ae15cc5e580f16def922ce447f38dbab5}{\index{kolejkatab@{kolejkatab}!dequeue@{dequeue}}
+\index{dequeue@{dequeue}!kolejkatab@{kolejkatab}}
+\subsubsection[{dequeue}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T\-Y\-P$>$ void {\bf kolejkatab}$<$ T\-Y\-P $>$\-::dequeue (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classkolejkatab_ae15cc5e580f16def922ce447f38dbab5}
+Metoda usuwajaca pierwszy element z kolejki. W przypadku gdy w kolejce nie ma elementow operacja usuniecia elementu nie zostanie wykonana. Uzytkownik jest o tym fakcie informowany odpowiednim komunikatem. Gdy kolejka wypelniona jest w co najmniej w 1/4 to rozmiar zaalokowanej tablicy zmniejszany jest o polowe. Metoda nie zwraca zadnych wartosci. Wartosc usunietego elementu przechowywana jest w polu pierwszy dopoki nie zostanie wykonana kolejna operacja usuniecia elementu z kolejki. 
+
+Definition at line 292 of file kolejka.\-h.
+
+\hypertarget{classkolejkatab_a3a15f6d2fe43f387e60d63f11b68d0a5}{\index{kolejkatab@{kolejkatab}!empty@{empty}}
+\index{empty@{empty}!kolejkatab@{kolejkatab}}
+\subsubsection[{empty}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T\-Y\-P$>$ bool {\bf kolejkatab}$<$ T\-Y\-P $>$\-::empty (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classkolejkatab_a3a15f6d2fe43f387e60d63f11b68d0a5}
+Metoda empty sluzy do sprawdzenia czy w kolejce znajduja sie jakies elementy. Jesli wartosc zwracana przez metoda size jest inna od 0 wtedy funkcja zwraca wartosc false. W przypadku prawdziwosci warunku zwracana jest wartosc true.
+
+\begin{DoxyReturn}{Returns}
+Zwraca wartosc logiczna w zaleznosci od warunku petli 
+\end{DoxyReturn}
+
+
+Definition at line 198 of file kolejka.\-h.
+
+\hypertarget{classkolejkatab_a6ba37d3ed63eb91be0ec150dc0646c50}{\index{kolejkatab@{kolejkatab}!enqueue\-\_\-dod@{enqueue\-\_\-dod}}
+\index{enqueue\-\_\-dod@{enqueue\-\_\-dod}!kolejkatab@{kolejkatab}}
+\subsubsection[{enqueue\-\_\-dod}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T\-Y\-P$>$ void {\bf kolejkatab}$<$ T\-Y\-P $>$\-::enqueue\-\_\-dod (
+\begin{DoxyParamCaption}
+\item[{T\-Y\-P}]{element}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classkolejkatab_a6ba37d3ed63eb91be0ec150dc0646c50}
+Metoda enqueue\-\_\-dod dokonuje dodania elementu na koniec kolejki. W przypadku kiedy tablica do ktorej wprowadzane sa wartosci jest zapelniona to jej rozmiar zwiekszany jest o 1. Jako argument metoda przyjmuje wartosc elementu typu T\-Y\-P. Nie zwraca zadnych wartosci.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em element} & -\/ zmienna typu T\-Y\-P dodawana na koniec kolejki \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 228 of file kolejka.\-h.
+
+\hypertarget{classkolejkatab_a1f4b14e081aef543ff4e08e2060042cb}{\index{kolejkatab@{kolejkatab}!enqueue\-\_\-pom@{enqueue\-\_\-pom}}
+\index{enqueue\-\_\-pom@{enqueue\-\_\-pom}!kolejkatab@{kolejkatab}}
+\subsubsection[{enqueue\-\_\-pom}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T\-Y\-P$>$ void {\bf kolejkatab}$<$ T\-Y\-P $>$\-::enqueue\-\_\-pom (
+\begin{DoxyParamCaption}
+\item[{T\-Y\-P}]{element}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classkolejkatab_a1f4b14e081aef543ff4e08e2060042cb}
+Metoda enqueue\-\_\-dod dokonuje dodania elementu na koniec kolejki. W przypadku kiedy tablica do ktorej wprowadzane sa wartosci jest zapelniona to jej rozmiar zwiekszany dwukrotnie. Jako argument metoda przyjmuje wartosc elementu typu T\-Y\-P. Nie zwraca zadnych wartosci.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em element} & -\/ zmienna typu T\-Y\-P dodawana na koniec kolejki \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 259 of file kolejka.\-h.
+
+\hypertarget{classkolejkatab_ab2bd484f25e38850871321cf8c695271}{\index{kolejkatab@{kolejkatab}!size@{size}}
+\index{size@{size}!kolejkatab@{kolejkatab}}
+\subsubsection[{size}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T\-Y\-P$>$ int {\bf kolejkatab}$<$ T\-Y\-P $>$\-::size (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classkolejkatab_ab2bd484f25e38850871321cf8c695271}
+Metoda size sluzy do podania ilosci elementow w kolejce. Zwraca aktualna wartosc zmiennej ilosc. Zwracana wartosc jest typu int.
+
+\begin{DoxyReturn}{Returns}
+Zwraca wartosc zmiennej ilosc. 
+\end{DoxyReturn}
+
+
+Definition at line 213 of file kolejka.\-h.
+
+\hypertarget{classkolejkatab_a19cfea1a6282ec8a3e7f7d903bad4ec0}{\index{kolejkatab@{kolejkatab}!tworz@{tworz}}
+\index{tworz@{tworz}!kolejkatab@{kolejkatab}}
+\subsubsection[{tworz}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T\-Y\-P$>$ T\-Y\-P$\ast$ {\bf kolejkatab}$<$ T\-Y\-P $>$\-::tworz (
+\begin{DoxyParamCaption}
+\item[{int}]{N}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classkolejkatab_a19cfea1a6282ec8a3e7f7d903bad4ec0}
+Metoda tworz tworzy tablice dynamiczna o zadanym rozmiarze. Jako argument przyjmuje zmienna N typu int. Metoda zwraca wskaznik na tablice typow T\-Y\-P.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em N} & -\/ wartosc rozmiaru zadeklarowanej tablicy\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Wskaznik na tablice typow T\-Y\-P 
+\end{DoxyReturn}
+
+
+Definition at line 182 of file kolejka.\-h.
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classkolejkatab_a161d4a2c4e17bd942ca79ae3a421ff34}{\index{kolejkatab@{kolejkatab}!ilosc@{ilosc}}
+\index{ilosc@{ilosc}!kolejkatab@{kolejkatab}}
+\subsubsection[{ilosc}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T\-Y\-P$>$ unsigned int {\bf kolejkatab}$<$ T\-Y\-P $>$\-::ilosc}}\label{classkolejkatab_a161d4a2c4e17bd942ca79ae3a421ff34}
+Pole ilosc odpowiada za przechowywanie informacji ile elementow znajduje sie w kolejce. Sluzy do sprawdzenia wypelnienia tablicy. 
+
+Definition at line 152 of file kolejka.\-h.
+
+\hypertarget{classkolejkatab_a9eac0eb1ac26bedc608938e7865b6352}{\index{kolejkatab@{kolejkatab}!pierwszy@{pierwszy}}
+\index{pierwszy@{pierwszy}!kolejkatab@{kolejkatab}}
+\subsubsection[{pierwszy}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T\-Y\-P$>$ T\-Y\-P {\bf kolejkatab}$<$ T\-Y\-P $>$\-::pierwszy}}\label{classkolejkatab_a9eac0eb1ac26bedc608938e7865b6352}
+Pole pierwszy przechowuje wartosc pierwszego elementu znajdujacego sie w kolejce. 
+
+Definition at line 160 of file kolejka.\-h.
+
+\hypertarget{classkolejkatab_a77ad076380322b9698305c608aab6637}{\index{kolejkatab@{kolejkatab}!rozmiar@{rozmiar}}
+\index{rozmiar@{rozmiar}!kolejkatab@{kolejkatab}}
+\subsubsection[{rozmiar}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T\-Y\-P$>$ int {\bf kolejkatab}$<$ T\-Y\-P $>$\-::rozmiar}}\label{classkolejkatab_a77ad076380322b9698305c608aab6637}
+Rozmiar jest zmienna typu int ktora przechowuje rozmiar zaalokowanej dynamicznie tablicy w ktorej znajduje sie kolejka. 
+
+Definition at line 136 of file kolejka.\-h.
+
+\hypertarget{classkolejkatab_a91ec1706d1e10ce7f781a5102c4b59b8}{\index{kolejkatab@{kolejkatab}!tab@{tab}}
+\index{tab@{tab}!kolejkatab@{kolejkatab}}
+\subsubsection[{tab}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T\-Y\-P$>$ T\-Y\-P$\ast$ {\bf kolejkatab}$<$ T\-Y\-P $>$\-::tab}}\label{classkolejkatab_a91ec1706d1e10ce7f781a5102c4b59b8}
+Pole to jest wskaznikiem na tablice tab ktora bedzie przechowywala elementy znajdujace sie w kolejce. Zainicjowanie tablicy dokonuje sie w w metodzie tworz po podaniu rozmiaru tablicy. 
+
+Definition at line 144 of file kolejka.\-h.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{kolejka_8h}{kolejka.\-h}\end{DoxyCompactItemize}

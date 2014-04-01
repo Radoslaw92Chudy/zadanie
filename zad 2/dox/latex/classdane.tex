@@ -24,11 +24,11 @@ void \hyperlink{classdane_a8427efc3e40d63911205b297aecb4ca9}{zapisz\-\_\-do\-\_\
 \item 
 int \hyperlink{classdane_a77efb8d7494e984418802f6e7cc32d20}{powtorzenia}
 \begin{DoxyCompactList}\small\item\em Pole powtorzenia. \end{DoxyCompactList}\item 
-clock\-\_\-t \hyperlink{classdane_a2301ccecd10f96a73e6816fc415e4edb}{czas\-\_\-operacji}
+double \hyperlink{classdane_af0dccb6c88a06aaf08441cc01d6bff27}{czas\-\_\-operacji}
 \begin{DoxyCompactList}\small\item\em Pole czas\-\_\-operacji. \end{DoxyCompactList}\item 
 double \hyperlink{classdane_adf1201c327225fc441f65b6d3b0d17e9}{odchylenie}
 \begin{DoxyCompactList}\small\item\em Pole odchylenie. \end{DoxyCompactList}\item 
-clock\-\_\-t $\ast$ \hyperlink{classdane_aa684a7eacd6787f62b0ed1115efc88ad}{tab\-\_\-czasow}
+double $\ast$ \hyperlink{classdane_a722f3af9d9a100995ebaba0fc63e6e25}{tab\-\_\-czasow}
 \begin{DoxyCompactList}\small\item\em Pole $\ast$tab\-\_\-czasow. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
@@ -67,7 +67,8 @@ Definition at line 23 of file dane.\-cpp.
 
 
 
-Here is the caller graph for this function\-:\nopagebreak
+Here is the caller graph for this function\-:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -85,11 +86,12 @@ Here is the caller graph for this function\-:\nopagebreak
 )}}\label{classdane_a8427efc3e40d63911205b297aecb4ca9}
 Metoda ta zapisuje informacje dotyczace wykonania sie algorytmu w pliku formatu csv. W tej metodzie tworzony jest odpowiedni obiekt klasy fstream do ktorego zapisywane sa informacje odnosnie ilosci powtorzen, czasu operacji, czasu powtorzen oraz odchylenie standardowe czasow. 
 
-Definition at line 37 of file dane.\-cpp.
+Definition at line 38 of file dane.\-cpp.
 
 
 
-Here is the caller graph for this function\-:\nopagebreak
+Here is the caller graph for this function\-:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -101,10 +103,10 @@ Here is the caller graph for this function\-:\nopagebreak
 
 
 \subsection{Member Data Documentation}
-\hypertarget{classdane_a2301ccecd10f96a73e6816fc415e4edb}{\index{dane@{dane}!czas\-\_\-operacji@{czas\-\_\-operacji}}
+\hypertarget{classdane_af0dccb6c88a06aaf08441cc01d6bff27}{\index{dane@{dane}!czas\-\_\-operacji@{czas\-\_\-operacji}}
 \index{czas\-\_\-operacji@{czas\-\_\-operacji}!dane@{dane}}
-\subsubsection[{czas\-\_\-operacji}]{\setlength{\rightskip}{0pt plus 5cm}clock\-\_\-t dane\-::czas\-\_\-operacji}}\label{classdane_a2301ccecd10f96a73e6816fc415e4edb}
-Pole to odpowiedzialne jest za przechowywanie informacji mowiacej w jakim czasie wykonano wszystkie powtorzenia algorytmu. Zmienna jest typu clock\-\_\-t. 
+\subsubsection[{czas\-\_\-operacji}]{\setlength{\rightskip}{0pt plus 5cm}double dane\-::czas\-\_\-operacji}}\label{classdane_af0dccb6c88a06aaf08441cc01d6bff27}
+Pole to odpowiedzialne jest za przechowywanie informacji mowiacej w jakim czasie wykonano wszystkie powtorzenia algorytmu. Zmienna jest typu double. 
 
 Definition at line 43 of file dane.\-h.
 
@@ -122,9 +124,9 @@ Pole to odpowiedzialne jest za przechowywanie informacji mowiacej o ilosci powto
 
 Definition at line 35 of file dane.\-h.
 
-\hypertarget{classdane_aa684a7eacd6787f62b0ed1115efc88ad}{\index{dane@{dane}!tab\-\_\-czasow@{tab\-\_\-czasow}}
+\hypertarget{classdane_a722f3af9d9a100995ebaba0fc63e6e25}{\index{dane@{dane}!tab\-\_\-czasow@{tab\-\_\-czasow}}
 \index{tab\-\_\-czasow@{tab\-\_\-czasow}!dane@{dane}}
-\subsubsection[{tab\-\_\-czasow}]{\setlength{\rightskip}{0pt plus 5cm}clock\-\_\-t$\ast$ dane\-::tab\-\_\-czasow}}\label{classdane_aa684a7eacd6787f62b0ed1115efc88ad}
+\subsubsection[{tab\-\_\-czasow}]{\setlength{\rightskip}{0pt plus 5cm}double$\ast$ dane\-::tab\-\_\-czasow}}\label{classdane_a722f3af9d9a100995ebaba0fc63e6e25}
 Pole to odpowiedzialne jest za przechowywanie czasow kazdego powtorzenia. Jest ono wskaznikiem na te tablice, ktora jest alokowana w sposob dynamiczny. Ilosc elementow okreslona jest przez ilosc powtorzen algorytmu. 
 
 Definition at line 60 of file dane.\-h.

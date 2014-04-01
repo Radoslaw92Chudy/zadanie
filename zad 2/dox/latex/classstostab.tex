@@ -1,0 +1,252 @@
+\hypertarget{classstostab}{\section{stostab$<$ T\-Y\-P $>$ Class Template Reference}
+\label{classstostab}\index{stostab$<$ T\-Y\-P $>$@{stostab$<$ T\-Y\-P $>$}}
+}
+
+
+Definicja szablonu stostab.  
+
+
+
+
+{\ttfamily \#include $<$stos.\-h$>$}
+
+
+
+Inheritance diagram for stostab$<$ T\-Y\-P $>$\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=166pt]{classstostab__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for stostab$<$ T\-Y\-P $>$\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=166pt]{classstostab__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classstostab_a496c66f7d32ff4ceb5fd833582c75e79}{stostab} ()
+\begin{DoxyCompactList}\small\item\em Kontruktor stostab. \end{DoxyCompactList}\item 
+\hyperlink{classstostab_a7acfb8464fb5baf7acae755d183ebf9f}{$\sim$stostab} ()
+\begin{DoxyCompactList}\small\item\em Destruktor stostab. \end{DoxyCompactList}\item 
+int $\ast$ \hyperlink{classstostab_a046d0ddf375c2bdd97e205c413a95402}{tworz} (int N)
+\begin{DoxyCompactList}\small\item\em Metoda tworz. \end{DoxyCompactList}\item 
+void \hyperlink{classstostab_a054d4e0353e199b3279a98826947e04b}{push\-\_\-dod} (T\-Y\-P element)
+\begin{DoxyCompactList}\small\item\em Metoda push\-\_\-dod. \end{DoxyCompactList}\item 
+void \hyperlink{classstostab_a18209a697845ec8bf1a98facd751c1e4}{push\-\_\-pom} (T\-Y\-P element)
+\begin{DoxyCompactList}\small\item\em Metoda push\-\_\-pom. \end{DoxyCompactList}\item 
+void \hyperlink{classstostab_ab4648e77e5d9447ef4595e4d3af90375}{pop} ()
+\begin{DoxyCompactList}\small\item\em Metoda pop. \end{DoxyCompactList}\item 
+int \hyperlink{classstostab_a2e0e934710c1a962b2eb74d8fa02f294}{size} ()
+\begin{DoxyCompactList}\small\item\em Metoda size. \end{DoxyCompactList}\item 
+bool \hyperlink{classstostab_aee2598867565da0b6fbdf248229bfa89}{empty} ()
+\begin{DoxyCompactList}\small\item\em Metoda empty. \end{DoxyCompactList}\item 
+void \hyperlink{classstostab_a0cb3060e73206a8a041b635729d2b738}{clear} ()
+\begin{DoxyCompactList}\small\item\em Metoda clear. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{classstostab_a5b43739b2e4cc4ac4f60e6b23687c08a}{rozmiar}
+\begin{DoxyCompactList}\small\item\em Pole rozmiar. \end{DoxyCompactList}\item 
+unsigned int \hyperlink{classstostab_a438aa2525088ae1f5487f0552a4d3300}{ilosc}
+\begin{DoxyCompactList}\small\item\em Pole ilosc. \end{DoxyCompactList}\item 
+T\-Y\-P $\ast$ \hyperlink{classstostab_ad0b2249981a482f6217f3f4c8f1aab55}{tab}
+\begin{DoxyCompactList}\small\item\em Pole tab. \end{DoxyCompactList}\item 
+T\-Y\-P \hyperlink{classstostab_a52a63ea67f972826bfec6709d69c0e8d}{ostatni}
+\begin{DoxyCompactList}\small\item\em Pole ostatni. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\subsubsection*{template$<$typename T\-Y\-P$>$class stostab$<$ T\-Y\-P $>$}
+
+Szablon stostab jest implementacja stosu przy uzyciu tablicy alokowanej dynamicznie. Zawiera on w sobie metody sprawdzajace ilosc oraz czy sa jakiekolwiek elementy na stosie. Ponadto zawiera operacje dodania elementu na stos ( na dwa sposoby\-: przy zwiekszaniu rozmiaru tablicy o 1 oraz zwiekszaniu rozmiaru tablicy dwukrotnie) oraz operacje pobrania elementu ze stosu. W swojej strukturze zdefiniowana ma metode tworz ktora tworzy tablice o zadanym rozmiarze. 
+
+Definition at line 128 of file stos.\-h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classstostab_a496c66f7d32ff4ceb5fd833582c75e79}{\index{stostab@{stostab}!stostab@{stostab}}
+\index{stostab@{stostab}!stostab@{stostab}}
+\subsubsection[{stostab}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T\-Y\-P$>$ {\bf stostab}$<$ T\-Y\-P $>$\-::{\bf stostab} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classstostab_a496c66f7d32ff4ceb5fd833582c75e79}
+Konstruktor wywolywany przy kazdorazowym utworzeniu obiektu typu stostab. W nim przypisywane sa wartosci zmiennym ilosc oraz rozmiar ktore wynosza 0. 
+
+Definition at line 166 of file stos.\-h.
+
+\hypertarget{classstostab_a7acfb8464fb5baf7acae755d183ebf9f}{\index{stostab@{stostab}!$\sim$stostab@{$\sim$stostab}}
+\index{$\sim$stostab@{$\sim$stostab}!stostab@{stostab}}
+\subsubsection[{$\sim$stostab}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T\-Y\-P$>$ {\bf stostab}$<$ T\-Y\-P $>$\-::$\sim${\bf stostab} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classstostab_a7acfb8464fb5baf7acae755d183ebf9f}
+Destruktor obiektu stostab wywolywany przy zakonczeniu dzialania obiektu. W nim usuwana jest cala tablica dynamiczna tab. 
+
+Definition at line 177 of file stos.\-h.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classstostab_a0cb3060e73206a8a041b635729d2b738}{\index{stostab@{stostab}!clear@{clear}}
+\index{clear@{clear}!stostab@{stostab}}
+\subsubsection[{clear}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T\-Y\-P$>$ void {\bf stostab}$<$ T\-Y\-P $>$\-::clear (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classstostab_a0cb3060e73206a8a041b635729d2b738}
+Metoda clear sluzy do usuniecia wszystkich elementow ze stosu. Wykorzystywana jest w momencie kilkukrotnego mierzenia czasu operacji. Zapobiega przed zaalokowaniem za duzej pamieci. Nie zwraca zadnych wartosci. Nie przyjmuje tez argumentow. 
+
+Definition at line 344 of file stos.\-h.
+
+\hypertarget{classstostab_aee2598867565da0b6fbdf248229bfa89}{\index{stostab@{stostab}!empty@{empty}}
+\index{empty@{empty}!stostab@{stostab}}
+\subsubsection[{empty}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T\-Y\-P$>$ bool {\bf stostab}$<$ T\-Y\-P $>$\-::empty (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classstostab_aee2598867565da0b6fbdf248229bfa89}
+Metoda empty sprawdza czy na stosie znajduja sie elementy. Petla warunkowa if sprawdza wartosc zwracana przez funkcje size. Jezeli jest ona rowna 0 to zwracana jest wartosc logiczna true. Natomiast kiedy size zwraca inna wartosc niz 0 to zwracana jest wartosc false. Metoda nie przyjmuje argumentow wejsciowych.
+
+\begin{DoxyReturn}{Returns}
+Zwraca wartosc logiczna typu bool w zaleznosci od rezultatu 
+\end{DoxyReturn}
+
+
+Definition at line 330 of file stos.\-h.
+
+\hypertarget{classstostab_ab4648e77e5d9447ef4595e4d3af90375}{\index{stostab@{stostab}!pop@{pop}}
+\index{pop@{pop}!stostab@{stostab}}
+\subsubsection[{pop}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T\-Y\-P$>$ void {\bf stostab}$<$ T\-Y\-P $>$\-::pop (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classstostab_ab4648e77e5d9447ef4595e4d3af90375}
+Metoda pop wykonuje operacje usuniecia elementu ze stosu. Nie przyjmuje argumentow wejsciowych. Przed wykonaniem operacji usuniecia elementu ze stosu sprawdzane jest czy na stosie znajduja sie elementy. Jesli tak to operacja moze zostac wykonana jezeli nie to uzytkownik jest informowany o tym fakcie odpowiednim komunikatem. Po wykonaniu usuniecia elementu z tablicy sprawdzana jest ilosc elementow w tablicy. Jezeli tablica jest zapelniona w 1/4 rozmiaru elementami to jej rozmiar jest zmniejszany o polowe. Jezeli nie jest spelniony ten warunek to tablica zachowuje swoj rozmiar. Metoda zwraca usuniety element ze stosu.
+
+\begin{DoxyReturn}{Returns}
+Zwraca ostatni element na stosie 
+\end{DoxyReturn}
+
+
+Definition at line 283 of file stos.\-h.
+
+\hypertarget{classstostab_a054d4e0353e199b3279a98826947e04b}{\index{stostab@{stostab}!push\-\_\-dod@{push\-\_\-dod}}
+\index{push\-\_\-dod@{push\-\_\-dod}!stostab@{stostab}}
+\subsubsection[{push\-\_\-dod}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T\-Y\-P$>$ void {\bf stostab}$<$ T\-Y\-P $>$\-::push\-\_\-dod (
+\begin{DoxyParamCaption}
+\item[{T\-Y\-P}]{element}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classstostab_a054d4e0353e199b3279a98826947e04b}
+Metoda push\-\_\-dod jest to metoda wykonujaca operacje dodania elementu na koniec tablicy. Opiera się ona na powiekszeniu tablicy za kazdym razem o jeden gdy ilosc elementow jest rowna rozmiarowi tablicy. Jako argument metoda przyjmuje element typu T\-Y\-P. Nie zwraca zadnej wartosci. W funkcji przepisywany jest wskaznik z tablicy tworzonej tymczasowo tablicy do tablicy stosu. Po kazdorazowym dodaniu elementu na stos zmienna ilosc jest powiekszana o 1.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em element} & -\/ element ktory ma zostac polozony na stos \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 212 of file stos.\-h.
+
+\hypertarget{classstostab_a18209a697845ec8bf1a98facd751c1e4}{\index{stostab@{stostab}!push\-\_\-pom@{push\-\_\-pom}}
+\index{push\-\_\-pom@{push\-\_\-pom}!stostab@{stostab}}
+\subsubsection[{push\-\_\-pom}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T\-Y\-P$>$ void {\bf stostab}$<$ T\-Y\-P $>$\-::push\-\_\-pom (
+\begin{DoxyParamCaption}
+\item[{T\-Y\-P}]{element}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classstostab_a18209a697845ec8bf1a98facd751c1e4}
+Metoda push\-\_\-pom jest to metoda wykonujaca operacje dodania elementu na koniec stosu(tablicy). Opiera się ona na powiekszaniu rozmiaru tablicy dwukrotnie zawsze kiedy ilosc elementow tablicy bedzie rowna rozmiarowi tablicy. Jako argument funkcja przyjmuje element typu T\-Y\-P natomiast nie zwraca ona zadnej wartosci. W metodzie tworzona jest tymczasowa zmienna wymiar odpowiadajaca za zaalokowanie tymczasowej tablicy o rozmiarze 2 razy wiekszym w przypadku zapelnienia pierwotnej tablicy.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em element} & -\/ wartosc jaka ma zostac dodana na stos \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 246 of file stos.\-h.
+
+\hypertarget{classstostab_a2e0e934710c1a962b2eb74d8fa02f294}{\index{stostab@{stostab}!size@{size}}
+\index{size@{size}!stostab@{stostab}}
+\subsubsection[{size}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T\-Y\-P$>$ int {\bf stostab}$<$ T\-Y\-P $>$\-::size (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classstostab_a2e0e934710c1a962b2eb74d8fa02f294}
+Metoda size podaje ilosc elementow znajdujacych sie na stosie. Metoda ta zwraca wartosc typu int tzn aktualna wartosc pola ilosc klasy stostab.\-Nie przyjmuje zadnych wartosci.
+
+\begin{DoxyReturn}{Returns}
+Zwraca wartosc zmiennej ilosc 
+\end{DoxyReturn}
+
+
+Definition at line 315 of file stos.\-h.
+
+\hypertarget{classstostab_a046d0ddf375c2bdd97e205c413a95402}{\index{stostab@{stostab}!tworz@{tworz}}
+\index{tworz@{tworz}!stostab@{stostab}}
+\subsubsection[{tworz}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T\-Y\-P$>$ int$\ast$ {\bf stostab}$<$ T\-Y\-P $>$\-::tworz (
+\begin{DoxyParamCaption}
+\item[{int}]{N}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classstostab_a046d0ddf375c2bdd97e205c413a95402}
+Metoda tworz tworzy tablice dynamiczna o zadanym rozmiarze Metoda przyjmuje jako parametr wejsciowy zmienna typu int. Jest to wartosc przypisywana do zmiennej rozmiar ktora opisuje rozmiar inicjalizowanej tablicy. Metoda zwraca wskaznik na tablice dynamiczna tab.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em N} & -\/ wartosc rozmiaru alokowanej tablicy\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Zwraca wskaznik na tablice tab 
+\end{DoxyReturn}
+
+
+Definition at line 193 of file stos.\-h.
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classstostab_a438aa2525088ae1f5487f0552a4d3300}{\index{stostab@{stostab}!ilosc@{ilosc}}
+\index{ilosc@{ilosc}!stostab@{stostab}}
+\subsubsection[{ilosc}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T\-Y\-P$>$ unsigned int {\bf stostab}$<$ T\-Y\-P $>$\-::ilosc}}\label{classstostab_a438aa2525088ae1f5487f0552a4d3300}
+Pole ilosc odpowiada za przechowywanie informacji ile elementow znajduje sie aktualnie na stosie. Jest to zmienna typu int. 
+
+Definition at line 145 of file stos.\-h.
+
+\hypertarget{classstostab_a52a63ea67f972826bfec6709d69c0e8d}{\index{stostab@{stostab}!ostatni@{ostatni}}
+\index{ostatni@{ostatni}!stostab@{stostab}}
+\subsubsection[{ostatni}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T\-Y\-P$>$ T\-Y\-P {\bf stostab}$<$ T\-Y\-P $>$\-::ostatni}}\label{classstostab_a52a63ea67f972826bfec6709d69c0e8d}
+Pole ostatni przechowuje wartosc ostatniego elementu pobranego ze stosu. 
+
+Definition at line 158 of file stos.\-h.
+
+\hypertarget{classstostab_a5b43739b2e4cc4ac4f60e6b23687c08a}{\index{stostab@{stostab}!rozmiar@{rozmiar}}
+\index{rozmiar@{rozmiar}!stostab@{stostab}}
+\subsubsection[{rozmiar}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T\-Y\-P$>$ int {\bf stostab}$<$ T\-Y\-P $>$\-::rozmiar}}\label{classstostab_a5b43739b2e4cc4ac4f60e6b23687c08a}
+Pole rozmiar jest to zmienna typu int, ktora odpowiada za przechowywanie informacji o rozmiarze zaalokowanej dynamicznie tablicy. 
+
+Definition at line 137 of file stos.\-h.
+
+\hypertarget{classstostab_ad0b2249981a482f6217f3f4c8f1aab55}{\index{stostab@{stostab}!tab@{tab}}
+\index{tab@{tab}!stostab@{stostab}}
+\subsubsection[{tab}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T\-Y\-P$>$ T\-Y\-P$\ast$ {\bf stostab}$<$ T\-Y\-P $>$\-::tab}}\label{classstostab_ad0b2249981a482f6217f3f4c8f1aab55}
+Pole tab jest to wskaznik na tablice zmiennych typu T\-Y\-P alokowanej dynamicznie w metodzie tworz. 
+
+Definition at line 152 of file stos.\-h.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{stos_8h}{stos.\-h}\end{DoxyCompactItemize}

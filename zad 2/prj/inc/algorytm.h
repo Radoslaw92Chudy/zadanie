@@ -5,6 +5,8 @@
 #include <ctime>
 #include <cmath>
 #include "dane.h"
+#include "stos.h"
+#include "kolejka.h"
 
 using namespace std;
 /*!
@@ -32,6 +34,20 @@ class algorytm{
 		 * informacji mowiacej o ilosci powtorzen algorytmu.
 		*/
 	int powtorzenia;
+		/*!
+		 *\brief Pole czas_nsec
+		 *
+		 * Pole odpowiada za przechowywanie nano czesci
+		 * czasu wykonania operacji.
+		 */
+	double czas_nsec;
+		/*!
+		 *\brief Pole czas_sec;
+		 *
+		 * Pole czas_sec odpowiada za przechowywanie 
+		 * liczby sekund wykonania danego powtorzenia.
+		 */
+	double czas_sec;
 		/*!
 		 *\brief Pole elementy
 		 *
@@ -68,6 +84,38 @@ class algorytm{
 		*/
 	int *tab_sprawdzajace;
 		/*!
+		 *\brief Obiekt stos klasy stostab
+		 *
+		 * Obiekt ten jest szablonem obiektu klasy stostab oznaczajacy
+		 * stos zaimplementowany na bazie tablicy alokowanej dynamicznie
+		 */
+	stostab<int> stos;
+		/*!
+		 *\brief Obiekt stoslista klasy stoslist
+		 *
+		 * Obiekt ten jest szablonem obiektu klasy stoslist
+		 * oznaczajacym stos zaimplementowany na bazie
+		 * szablonu listy z STL.
+		 */
+	stoslist<int> stoslista;
+		/*!
+		 *\brief Obiekt kolejkalista klasy kolejkalist
+		 *
+		 * Obiekt kolejkalista jest szablonem klasy kolejkalist
+		 * oznaczajacym  kolejke zaimplementowana przy
+		 * uzyciu szablonu listy z biblioteki STL.
+		 */
+	kolejkalist<int> kolejkalista;
+		/*!
+		 *\brief Obiekt kolejkatablica klasy kolejkatab
+		 *
+		 * Obiekt kolejkatablica jest kolejka zaimplementowana
+		 * przy uzyciu szablonu klasy kolejkatab. Klasa
+		 * ta wykorzystuje implementacje przy uzyciu 
+		 * tablicy alokowanej dynamicznie.
+		 */
+	kolejkatab<int> kolejkatablica;
+		/*!
 		 *\brief Metoda wczytujaca dane z pliku tesowego
 		 *
 		 * Metoda ta wykonuje operacje wczytania pliku z 
@@ -83,15 +131,63 @@ class algorytm{
 		 */
 	int* wczytaj_dane();
 		/*!
-		 *\brief Metoda pobierajaca czas
+		 *\brief Metoda wczytujaca dane z pliku tekstowego do stosu implementowanego tablica
 		 *
-		 * Metoda sluzy do pobrania czasu i wykorzystywana jest 
-		 * obliczenia czasu w jakim wykonany zostal algorytm oraz
-		 * kazde jego powtorzenie. Zwraca aktualny czas.
+		 * Metoda ta wykonuje operacje wczytywania pliku tekstowego
+		 * z danymi do stosu zaimlementowanego przy użyciu tablicy
+		 * alokowanej dynamicznie. Funkcja nie zwraca zadnej wartosci.
+		 * W przypaku niepowodzenia operacji otwarcia pliku uzytkownik
+		 * informowany jest o tym odpowiednim komunikatem.
+		*/
+	void wczytaj_dane_stostab();
+		/*!
+		 *\brief Metoda wczytujaca dane z pliku tekstowego do stosu implementowanego lista
 		 *
-		 *\return Zwraca zmienna typu clock_t.
+		 * Metoda ta wykonuje operacje wczytywania pliku tekstowego
+		 * z danymi do stosu zaimlementowanego przy użyciu listy
+		 * z STL. Funkcja nie zwraca zadnej wartosci.
+		 * W przypaku niepowodzenia operacji otwarcia pliku uzytkownik
+		 * informowany jest o tym odpowiednim komunikatem.
+		*/
+	void wczytaj_dane_stoslista();
+		/*!
+		 *\brief Metoda wczytujaca dane z pliku tekstowego do kolejki implementowanej tablica
+		 *
+		 * Metoda ta wykonuje operacje wczytywania pliku tekstowego
+		 * z danymi do kolejki zaimlementowanej przy użyciu tablicy
+		 * alokowanej dynamicznie. Funkcja nie zwraca zadnej wartosci.
+		 * W przypaku niepowodzenia operacji otwarcia pliku uzytkownik
+		 * informowany jest o tym odpowiednim komunikatem.
+		*/
+	void wczytaj_dane_kolejkatab();
+		/*!
+		 *\brief Metoda wczytujaca dane z pliku tekstowego do kolejki implementowanej lista
+		 *
+		 * Metoda ta wykonuje operacje wczytywania pliku tekstowego
+		 * z danymi do kolejki zaimplementowanej przy uzyciu szablonu
+		 * listy z STL wraz z wykorzystaniem jej metod. Metoda nie
+		 * przyjmuje zadnych argumentow. Nie zwraca tez zadnych wartosci
+		 * , w przypadku niepoprawnego otwarcia pliku uzytkownik
+		 * jest informowany o tym fakcie odpowiednim komunikatem.
+		 *
 		 */
-	clock_t pobierz_czas();
+	void wczytaj_dane_kolejkalist();
+		/*!
+		 *\brief Metoda wlacz_zegar
+		 *
+		 * Metoda sluzy do wlaczenia zegara i wykorzystania w  
+		 * obliczeniach czasu w jakim wykonany zostal algorytm oraz
+		 * kazde jego powtorzenie. Nie zwraca wartosci.
+		 *
+		 */
+	void wlacz_zegar();
+		/*!
+		 *\brief Metoda wylacz_zegar
+		 *
+		 * Metoda sluzy do wylaczenia zegara o wykonaniu sie 
+		 * danego algorytmu. Metoda nie zwraca zadnych wartosci.
+		 */
+	void wylacz_zegar();
 		/*!
 		 *\brief Metoda wykonaj obliczenia
 		 *
@@ -221,6 +317,17 @@ class algorytm{
 		 *\return Zwraca wartosc logiczna typu int po wykonaniu testu.
 		 */
 	int test(dane *Info);
+		/*!
+		 *\brief Metoda test_wczytania
+		 *
+		 * Metoda test_wczytania jest to metoda testujaca wczytywanie
+		 * elementow z pliku oraz pomiar czasu tej operacji. Jako
+		 * argument wejsciowy metoda przyjmuje wskaznik na obiekt typu dane.
+		 * Nie zwracana jest zadna wartosc.
+		 *
+		 *\param[in] Info - wskaznik na obiekt klasy dane
+		 */
+	void test_wczytania(dane *Info);
 };
 
 

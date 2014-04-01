@@ -1,9 +1,12 @@
 #include <iostream>
 #include <ctime>
+#include <sys/time.h>
 #include <cstdlib>
 #include <cmath>
 #include <fstream>
 #include "algorytm.h"
+#include "stos.h"
+#include "kolejka.h"
 
 using namespace std;
 
@@ -20,9 +23,10 @@ using namespace std;
  * w tym miejsu również znajduja sie definicje operacji
  * odwracania elementow tablicy, zamiany danych elementow,
  * dodanie elementu do tablicy, dodanie dwoch tablic.
+ * Zdefiniowane sa tez pliki testowe dla operacji wczytywania
+ * danych do struktur danych min kolejki i stosu.
  *
  */
-
 	int* algorytm::wczytaj_dane(){
 		fstream plik;
 		int i;
@@ -41,10 +45,86 @@ using namespace std;
 		plik.close();
 		return tab_danych;
 	}
-	clock_t algorytm::pobierz_czas(){
-		clock_t czas;
-		czas=clock();
-		return czas;
+	void algorytm::wczytaj_dane_stostab(){
+		fstream plik;
+		int dana;
+		plik.open("test10.txt");
+		if(plik.good()==true){
+			plik>>stos.rozmiar;
+			stos.tworz(stos.rozmiar);
+			while(plik>>dana){
+				stos.push_pom(dana);
+			}
+		}
+		else{
+			cerr<<"Proba otwarca pliku testowego nie powiodla sie"<<endl;
+			exit(0);
+		}
+		plik.close();
+	}
+	void algorytm::wczytaj_dane_stoslista(){
+		fstream plik;
+		int dana;
+		plik.open("test10.txt");
+		if(plik.good()==true){
+			plik>>stos.rozmiar;
+			stos.tworz(1);
+			while(plik>>dana){
+				stoslista.push(dana);
+			}
+		}
+		else{
+			cerr<<"Proba otwarca pliku testowego nie powiodla sie"<<endl;
+			exit(0);
+		}
+		plik.close();
+	}
+	void algorytm::wczytaj_dane_kolejkatab(){
+		fstream plik;
+		int dana;
+		plik.open("test1000000.txt");
+		if(plik.good()==true){
+			plik>>kolejkatablica.rozmiar;
+			stos.tworz(1);
+			kolejkatablica.tworz(stos.rozmiar);
+			while(plik>>dana){
+				kolejkatablica.enqueue_dod(dana);
+			}
+		}
+		else{
+			cerr<<"Proba otwarca pliku testowego nie powiodla sie"<<endl;
+			exit(0);
+		}
+		plik.close();
+	}
+	void algorytm::wczytaj_dane_kolejkalist(){
+		fstream plik;
+		int dana=0;
+		plik.open("test10.txt");
+		if(plik.good()==true){
+			plik>>stos.rozmiar;
+			stos.tworz(1);
+			while(plik>>dana){
+				kolejkalista.enqueue(dana);
+			}
+		}
+		else{
+			cerr<<"Proba otwarcia pliku testowego nie powiodla sie"<<endl;
+			exit(0);
+		}
+		plik.close();
+	}
+	void algorytm::wlacz_zegar(){
+		struct timespec tp;
+		clock_gettime(CLOCK_REALTIME,&tp);
+		czas_nsec=tp.tv_nsec;
+		czas_sec=tp.tv_sec;
+	}
+	void algorytm::wylacz_zegar(){
+		struct timespec tp;
+		clock_gettime(CLOCK_REALTIME,&tp);
+		czas_nsec=static_cast<double>(tp.tv_nsec-czas_nsec)/1E9;
+		czas_sec=static_cast<double>(tp.tv_sec-czas_sec);
 	}
 	int* algorytm::wykonaj_obliczenia(){
 		int i;
@@ -136,15 +216,15 @@ using namespace std;
 		return tab_nowa;
 	}
 	int algorytm::test(dane *Info){
-		clock_t czas_przed,czas_po,czas_powtorzenia;
+		double czas_powtorzenia;
 		int i;
 		Info->powtorzenia=powtorzenia;
 		wczytaj_dane();
 		for(i=0;i<powtorzenia;i++){
-			czas_przed=pobierz_czas();
+			wlacz_zegar();
 			wykonaj_obliczenia();
-			czas_po=pobierz_czas();
-			czas_powtorzenia=((float(czas_po-czas_przed))/CLOCKS_PER_SEC);
+			wylacz_zegar();
+			czas_powtorzenia=czas_sec+czas_nsec;
 			Info->tab_czasow[i]=czas_powtorzenia;
 		}
 		wczytaj_dane_sprawdzajace();
@@ -152,4 +232,19 @@ using namespace std;
 		Info->wylicz_odchylenie();
 		Info->zapisz_do_csv();
 		return 0;
+	}
+	void algorytm::test_wczytania(dane *Info){
+		int i=0;
+		double czas_powtorzenia;
+		Info->powtorzenia=powtorzenia;
+		for(i=0;i<powtorzenia;i++){
+			wlacz_zegar();
+			wczytaj_dane_kolejkatab();
+			wylacz_zegar();
+			czas_powtorzenia=czas_sec+czas_nsec;
+			Info->tab_czasow[i]=czas_powtorzenia;
+			kolejkatablica.clear();
+		}
+		Info->wylicz_odchylenie();
+		Info->zapisz_do_csv();
 	}

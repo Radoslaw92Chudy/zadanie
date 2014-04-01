@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.3.6)  11 MAR 2014 21:29
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.3.6)  1 APR 2014 21:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1040,25 +1040,30 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
  [3
 
 ]
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 54.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <7> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 71.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 10.79993pt on input line 54.
+(Font)              scaled to size 6.29996pt on input line 71.
+ [4]
+Underfull \vbox (badness 1968) has occurred while \output is active []
+
+ [5]
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 127.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 10.79993pt on input line 127.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 54.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 127.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 54.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 127.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 54.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 127.
 )
 \tf@toc=\write5
 \openout5 = `refman.toc'.
 
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <7> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 128.
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 6.29996pt on input line 128.
- [4]
+
+[6]
 Package hyperref Info: Option `pageanchor' set `true' on input line 130.
 
 Chapter 1.
@@ -1116,163 +1121,395 @@ Chapter 3.
 ]
 Chapter 4.
 (./classalgorytm.tex
+<classalgorytm__coll__graph.pdf, id=735, 503.8825pt x 331.2375pt>
+File: classalgorytm__coll__graph.pdf Graphic file (type pdf)
+
+<use classalgorytm__coll__graph.pdf>
+Package pdftex.def Info: classalgorytm__coll__graph.pdf used on input line 20.
+(pdftex.def)             Requested size: 350.0pt x 230.0805pt.
 LaTeX Font Info:    Font shape `T1/phv/bc/n' will be
-(Font)              scaled to size 10.79993pt on input line 13.
-LaTeX Font Info:    Try loading font information for TS1+phv on input line 16.
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1phv.fd
+(Font)              scaled to size 10.79993pt on input line 23.
+LaTeX Font Info:    Try loading font information for TS1+phv on input line 26.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1phv.fd
 File: ts1phv.fd 2001/06/04 scalable font definitions for TS1/phv.
 )
 LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
-(Font)              scaled to size 8.99994pt on input line 16.
+(Font)              scaled to size 8.99994pt on input line 26.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <9> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 17.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 27.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 8.09995pt on input line 17.
-[7]
+(Font)              scaled to size 8.09995pt on input line 27.
+ [7 <./classalgorytm__coll__graph.pdf>] [8]
 LaTeX Font Info:    Font shape `T1/phv/bc/it' in size <10> not available
-(Font)              Font shape `T1/phv/bc/sl' tried instead on input line 68.
+(Font)              Font shape `T1/phv/bc/sl' tried instead on input line 102.
 LaTeX Font Info:    Font shape `T1/phv/bc/sl' will be
-(Font)              scaled to size 8.99994pt on input line 68.
+(Font)              scaled to size 8.99994pt on input line 102.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 73.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 107.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 8.99994pt on input line 73.
+(Font)              scaled to size 8.99994pt on input line 107.
 
-Underfull \hbox (badness 10000) detected at line 78
+Underfull \hbox (badness 10000) detected at line 112
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 102
-[][][]
- []
-
-[8]
-Underfull \hbox (badness 10000) detected at line 141
-[][][]
- []
-
-
-Underfull \hbox (badness 10000) detected at line 157
-[][][]
- []
-
-
-Underfull \hbox (badness 10000) detected at line 173
+Underfull \hbox (badness 10000) detected at line 136
 [][][]
  []
 
 [9]
-Underfull \hbox (badness 10000) detected at line 194
+Underfull \hbox (badness 10000) detected at line 175
 [][][]
  []
 
 
-<classalgorytm_ac86c17db1372a20261b2eb66530d2775_cgraph.pdf, id=394, 319.1925pt
+Underfull \hbox (badness 10000) detected at line 191
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 212
+[][][]
+ []
+
+
+<classalgorytm_ac86c17db1372a20261b2eb66530d2775_cgraph.pdf, id=824, 319.1925pt
  x 142.5325pt>
 File: classalgorytm_ac86c17db1372a20261b2eb66530d2775_cgraph.pdf Graphic file (
 type pdf)
 
 <use classalgorytm_ac86c17db1372a20261b2eb66530d2775_cgraph.pdf>
 Package pdftex.def Info: classalgorytm_ac86c17db1372a20261b2eb66530d2775_cgraph
-.pdf used on input line 207.
+.pdf used on input line 225.
 (pdftex.def)             Requested size: 318.0pt x 142.00146pt.
+ [10 <./classalgorytm_ac86c17db1372a20261b2eb66530d2775_cgraph.pdf>] [11]
+<classalgorytm_ad5187dcb092d8c0ea27de1e2107f58fb_cgraph.pdf, id=839, 367.3725pt
+ x 142.5325pt>
+File: classalgorytm_ad5187dcb092d8c0ea27de1e2107f58fb_cgraph.pdf Graphic file (
+type pdf)
 
-<classalgorytm_ac86c17db1372a20261b2eb66530d2775_icgraph.pdf, id=395, 232.87pt 
+<use classalgorytm_ad5187dcb092d8c0ea27de1e2107f58fb_cgraph.pdf>
+Package pdftex.def Info: classalgorytm_ad5187dcb092d8c0ea27de1e2107f58fb_cgraph
+.pdf used on input line 255.
+(pdftex.def)             Requested size: 350.0pt x 135.80092pt.
+
+<classalgorytm_ad5187dcb092d8c0ea27de1e2107f58fb_icgraph.pdf, id=840, 281.05pt 
 x 102.3825pt>
-File: classalgorytm_ac86c17db1372a20261b2eb66530d2775_icgraph.pdf Graphic file 
+File: classalgorytm_ad5187dcb092d8c0ea27de1e2107f58fb_icgraph.pdf Graphic file 
 (type pdf)
 
-<use classalgorytm_ac86c17db1372a20261b2eb66530d2775_icgraph.pdf>
-Package pdftex.def Info: classalgorytm_ac86c17db1372a20261b2eb66530d2775_icgrap
-h.pdf used on input line 218.
-(pdftex.def)             Requested size: 232.0pt x 102.00418pt.
+<use classalgorytm_ad5187dcb092d8c0ea27de1e2107f58fb_icgraph.pdf>
+Package pdftex.def Info: classalgorytm_ad5187dcb092d8c0ea27de1e2107f58fb_icgrap
+h.pdf used on input line 267.
+(pdftex.def)             Requested size: 280.0pt x 102.00574pt.
 
-Underfull \hbox (badness 10000) detected at line 232
+Underfull \hbox (badness 10000) detected at line 281
 [][][]
  []
 
-[10 <./classalgorytm_ac86c17db1372a20261b2eb66530d2775_cgraph.pdf> <./classalgo
-rytm_ac86c17db1372a20261b2eb66530d2775_icgraph.pdf
+[12 <./classalgorytm_ad5187dcb092d8c0ea27de1e2107f58fb_cgraph.pdf> <./classalgo
+rytm_ad5187dcb092d8c0ea27de1e2107f58fb_icgraph.pdf
 
-pdfTeX warning: pdflatex (file ./classalgorytm_ac86c17db1372a20261b2eb66530d277
-5_icgraph.pdf): PDF inclusion: multiple pdfs with page group included in a sing
+pdfTeX warning: pdflatex (file ./classalgorytm_ad5187dcb092d8c0ea27de1e2107f58f
+b_icgraph.pdf): PDF inclusion: multiple pdfs with page group included in a sing
 le page
 >]
-Underfull \hbox (badness 10000) detected at line 248
+Underfull \hbox (badness 10000) detected at line 319
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 264
+Underfull \hbox (badness 10000) detected at line 368
 [][][]
  []
 
-[11]) (./classdane.tex
+[13] [14]) (./classdane.tex [15]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 32.
- [12]
-<classdane_a365e299198fea0ee26fe080de6b0d12e_icgraph.pdf, id=441, 393.47pt x 10
-2.3825pt>
+
+<classdane_a365e299198fea0ee26fe080de6b0d12e_icgraph.pdf, id=882, 441.65pt x 14
+2.5325pt>
 File: classdane_a365e299198fea0ee26fe080de6b0d12e_icgraph.pdf Graphic file (typ
 e pdf)
  <use classdane_a365e299198fea0ee26fe080de6b0d12e_icgraph.pdf>
 Package pdftex.def Info: classdane_a365e299198fea0ee26fe080de6b0d12e_icgraph.pd
-f used on input line 74.
-(pdftex.def)             Requested size: 350.0pt x 91.07014pt.
+f used on input line 75.
+(pdftex.def)             Requested size: 350.0pt x 112.96045pt.
 
-<classdane_a8427efc3e40d63911205b297aecb4ca9_icgraph.pdf, id=442, 379.4175pt x 
-102.3825pt>
+[16 <./classdane_a365e299198fea0ee26fe080de6b0d12e_icgraph.pdf>]
+<classdane_a8427efc3e40d63911205b297aecb4ca9_icgraph.pdf, id=900, 427.5975pt x 
+142.5325pt>
 File: classdane_a8427efc3e40d63911205b297aecb4ca9_icgraph.pdf Graphic file (typ
 e pdf)
  <use classdane_a8427efc3e40d63911205b297aecb4ca9_icgraph.pdf>
 Package pdftex.def Info: classdane_a8427efc3e40d63911205b297aecb4ca9_icgraph.pd
-f used on input line 96.
-(pdftex.def)             Requested size: 350.0pt x 94.44612pt.
+f used on input line 98.
+(pdftex.def)             Requested size: 350.0pt x 116.66643pt.
+)
+(./classkolejkalist.tex
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
 
-[13 <./classdane_a365e299198fea0ee26fe080de6b0d12e_icgraph.pdf> <./classdane_a8
-427efc3e40d63911205b297aecb4ca9_icgraph.pdf
 
-pdfTeX warning: pdflatex (file ./classdane_a8427efc3e40d63911205b297aecb4ca9_ic
-graph.pdf): PDF inclusion: multiple pdfs with page group included in a single p
-age
->]) [14]
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 3.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 3.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 3.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 3.
+
+[17 <./classdane_a8427efc3e40d63911205b297aecb4ca9_icgraph.pdf>]
+<classkolejkalist__inherit__graph.pdf, id=913, 178.6675pt x 174.6525pt>
+File: classkolejkalist__inherit__graph.pdf Graphic file (type pdf)
+
+<use classkolejkalist__inherit__graph.pdf>
+Package pdftex.def Info: classkolejkalist__inherit__graph.pdf used on input lin
+e 19.
+(pdftex.def)             Requested size: 178.0pt x 174.0098pt.
+
+<classkolejkalist__coll__graph.pdf, id=914, 178.6675pt x 174.6525pt>
+File: classkolejkalist__coll__graph.pdf Graphic file (type pdf)
+
+<use classkolejkalist__coll__graph.pdf>
+Package pdftex.def Info: classkolejkalist__coll__graph.pdf used on input line 2
+8.
+(pdftex.def)             Requested size: 178.0pt x 174.0098pt.
+ [18 <./classkolejkalist__inherit__graph.pdf> <./classkolejkalist__coll__graph.
+pdf
+
+pdfTeX warning: pdflatex (file ./classkolejkalist__coll__graph.pdf): PDF inclus
+ion: multiple pdfs with page group included in a single page
+>]
+
+LaTeX Font Warning: Font shape `T1/pcr/bc/n' undefined
+(Font)              using `T1/pcr/m/n' instead on input line 69.
+
+
+Underfull \hbox (badness 10000) detected at line 97
+[][][]
+ []
+
+[19]
+Underfull \hbox (badness 10000) detected at line 131
+[][][]
+ []
+
+) (./classkolejkatab.tex
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 3.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 3.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 3.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 3.
+
+<classkolejkatab__inherit__graph.pdf, id=953, 178.6675pt x 174.6525pt>
+File: classkolejkatab__inherit__graph.pdf Graphic file (type pdf)
+
+<use classkolejkatab__inherit__graph.pdf>
+Package pdftex.def Info: classkolejkatab__inherit__graph.pdf used on input line
+ 19.
+(pdftex.def)             Requested size: 178.0pt x 174.0098pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [20]
+<classkolejkatab__coll__graph.pdf, id=958, 178.6675pt x 186.6975pt>
+File: classkolejkatab__coll__graph.pdf Graphic file (type pdf)
+
+<use classkolejkatab__coll__graph.pdf>
+Package pdftex.def Info: classkolejkatab__coll__graph.pdf used on input line 28
+.
+(pdftex.def)             Requested size: 178.0pt x 186.01048pt.
+ [21 <./classkolejkatab__inherit__graph.pdf> <./classkolejkatab__coll__graph.pd
+f
+
+pdfTeX warning: pdflatex (file ./classkolejkatab__coll__graph.pdf): PDF inclusi
+on: multiple pdfs with page group included in a single page
+>] [22]
+Underfull \hbox (badness 10000) detected at line 118
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 170
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 191
+[][][]
+ []
+
+[23]
+Underfull \hbox (badness 1097) in paragraph at lines 225--226
+\T1/phv/m/n/10 Pole to jest wskaznikiem na tablice tab ktora bedzie prze-chowyw
+ala el-e-menty zna-j-du-jace sie w kole-jce.
+ []
+
+) (./classstoslist.tex
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 3.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 3.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 3.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 3.
+
+<classstoslist__inherit__graph.pdf, id=1011, 166.6225pt x 174.6525pt>
+File: classstoslist__inherit__graph.pdf Graphic file (type pdf)
+
+<use classstoslist__inherit__graph.pdf>
+Package pdftex.def Info: classstoslist__inherit__graph.pdf used on input line 1
+9.
+(pdftex.def)             Requested size: 166.0pt x 174.01247pt.
+ [24 <./classstoslist__inherit__graph.pdf>]
+Underfull \hbox (badness 10000) detected at line 61
+[][][]
+ []
+
+[25]
+Underfull \hbox (badness 10000) detected at line 106
+[][][]
+ []
+
+) (./classstostab.tex
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 3.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 3.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 3.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 3.
+
+<classstostab__inherit__graph.pdf, id=1043, 166.6225pt x 174.6525pt>
+File: classstostab__inherit__graph.pdf Graphic file (type pdf)
+
+<use classstostab__inherit__graph.pdf>
+Package pdftex.def Info: classstostab__inherit__graph.pdf used on input line 19
+.
+(pdftex.def)             Requested size: 166.0pt x 174.01247pt.
+
+Underfull \vbox (badness 7722) has occurred while \output is active []
+
+ [26]
+<classstostab__coll__graph.pdf, id=1048, 166.6225pt x 186.6975pt>
+File: classstostab__coll__graph.pdf Graphic file (type pdf)
+
+<use classstostab__coll__graph.pdf>
+Package pdftex.def Info: classstostab__coll__graph.pdf used on input line 29.
+(pdftex.def)             Requested size: 166.0pt x 186.01332pt.
+ [27 <./classstostab__inherit__graph.pdf> <./classstostab__coll__graph.pdf
+
+pdfTeX warning: pdflatex (file ./classstostab__coll__graph.pdf): PDF inclusion:
+ multiple pdfs with page group included in a single page
+>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 93.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\sim' on input line 93.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 93.
+
+[28]
+Underfull \hbox (badness 10000) detected at line 121
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 137
+[][][]
+ []
+
+[29]
+Underfull \hbox (badness 10000) detected at line 189
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 210
+[][][]
+ []
+
+) [30]
 Chapter 5.
-(./algorytm_8cpp.tex
-<algorytm_8cpp__incl.pdf, id=464, 440.64626pt x 277.035pt>
+(./algorytm_8cpp.tex <algorytm_8cpp__incl.pdf, id=1107, 702.625pt x 277.035pt>
 File: algorytm_8cpp__incl.pdf Graphic file (type pdf)
 
 <use algorytm_8cpp__incl.pdf>
-Package pdftex.def Info: algorytm_8cpp__incl.pdf used on input line 19.
-(pdftex.def)             Requested size: 350.0pt x 220.05154pt.
-) (./algorytm_8h.tex [15
+Package pdftex.def Info: algorytm_8cpp__incl.pdf used on input line 23.
+(pdftex.def)             Requested size: 350.0pt x 138.00566pt.
+) (./algorytm_8h.tex [31
 
- <./algorytm_8cpp__incl.pdf>] <algorytm_8h__incl.pdf, id=478, 265.99374pt x 218
-.8175pt>
+ <./algorytm_8cpp__incl.pdf>] <algorytm_8h__incl.pdf, id=1121, 381.425pt x 218.
+8175pt>
 File: algorytm_8h__incl.pdf Graphic file (type pdf)
 
 <use algorytm_8h__incl.pdf>
-Package pdftex.def Info: algorytm_8h__incl.pdf used on input line 17.
-(pdftex.def)             Requested size: 265.0pt x 218.01895pt.
+Package pdftex.def Info: algorytm_8h__incl.pdf used on input line 19.
+(pdftex.def)             Requested size: 350.0pt x 200.797pt.
 
-<algorytm_8h__dep__incl.pdf, id=479, 226.8475pt x 160.6pt>
+<algorytm_8h__dep__incl.pdf, id=1122, 226.8475pt x 160.6pt>
 File: algorytm_8h__dep__incl.pdf Graphic file (type pdf)
 
 <use algorytm_8h__dep__incl.pdf>
-Package pdftex.def Info: algorytm_8h__dep__incl.pdf used on input line 24.
+Package pdftex.def Info: algorytm_8h__dep__incl.pdf used on input line 26.
 (pdftex.def)             Requested size: 226.0pt x 160.00165pt.
-) (./dane_8cpp.tex [16 <./algorytm_8h__incl.pdf> <./algorytm_8h__dep__incl.pdf
+) (./dane_8cpp.tex [32 <./algorytm_8h__incl.pdf> <./algorytm_8h__dep__incl.pdf
 
 pdfTeX warning: pdflatex (file ./algorytm_8h__dep__incl.pdf): PDF inclusion: mu
 ltiple pdfs with page group included in a single page
->] <dane_8cpp__incl.pdf, id=499, 324.21124pt x 218.8175pt>
+>] <dane_8cpp__incl.pdf, id=1141, 324.21124pt x 218.8175pt>
 File: dane_8cpp__incl.pdf Graphic file (type pdf)
 
 <use dane_8cpp__incl.pdf>
 Package pdftex.def Info: dane_8cpp__incl.pdf used on input line 18.
 (pdftex.def)             Requested size: 323.0pt x 218.01228pt.
 ) (./dane_8h.tex
-<dane_8h__incl.pdf, id=501, 254.9525pt x 160.6pt>
+<dane_8h__incl.pdf, id=1143, 254.9525pt x 160.6pt>
 File: dane_8h__incl.pdf Graphic file (type pdf)
  <use dane_8h__incl.pdf>
 Package pdftex.def Info: dane_8h__incl.pdf used on input line 16.
@@ -1280,61 +1517,110 @@ Package pdftex.def Info: dane_8h__incl.pdf used on input line 16.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [17 <./dane_8cpp__incl.pdf>] <dane_8h__dep__incl.pdf, id=513, 283.0575pt x 218
-.8175pt>
+ [33 <./dane_8cpp__incl.pdf>] <dane_8h__dep__incl.pdf, id=1157, 283.0575pt x 21
+8.8175pt>
 File: dane_8h__dep__incl.pdf Graphic file (type pdf)
 
 <use dane_8h__dep__incl.pdf>
 Package pdftex.def Info: dane_8h__dep__incl.pdf used on input line 23.
 (pdftex.def)             Requested size: 282.0pt x 218.01895pt.
-) (./main_8cpp.tex
-<main_8cpp__incl.pdf, id=516, 273.02pt x 277.035pt>
-File: main_8cpp__incl.pdf Graphic file (type pdf)
- <use main_8cpp__incl.pdf>
-Package pdftex.def Info: main_8cpp__incl.pdf used on input line 17.
-(pdftex.def)             Requested size: 272.0pt x 276.01555pt.
+) (./kolejka_8h.tex
+<kolejka_8h__incl.pdf, id=1160, 180.675pt x 160.6pt>
+File: kolejka_8h__incl.pdf Graphic file (type pdf)
 
-[18 <./dane_8h__incl.pdf> <./dane_8h__dep__incl.pdf
+<use kolejka_8h__incl.pdf>
+Package pdftex.def Info: kolejka_8h__incl.pdf used on input line 15.
+(pdftex.def)             Requested size: 180.0pt x 160.00165pt.
+ [34 <./dane_8h__incl.pdf> <./dane_8h__dep__incl.pdf
 
 pdfTeX warning: pdflatex (file ./dane_8h__dep__incl.pdf): PDF inclusion: multip
 le pdfs with page group included in a single page
->]
-Underfull \hbox (badness 10000) detected at line 30
+>] <kolejka_8h__dep__incl.pdf, id=1178, 244.915pt x 218.8175pt>
+File: kolejka_8h__dep__incl.pdf Graphic file (type pdf)
+
+<use kolejka_8h__dep__incl.pdf>
+Package pdftex.def Info: kolejka_8h__dep__incl.pdf used on input line 22.
+(pdftex.def)             Requested size: 244.0pt x 218.0056pt.
+) (./main_8cpp.tex [35 <./kolejka_8h__incl.pdf> <./kolejka_8h__dep__incl.pdf
+
+pdfTeX warning: pdflatex (file ./kolejka_8h__dep__incl.pdf): PDF inclusion: mul
+tiple pdfs with page group included in a single page
+>] <main_8cpp__incl.pdf, id=1199, 418.56375pt x 277.035pt>
+File: main_8cpp__incl.pdf Graphic file (type pdf)
+
+<use main_8cpp__incl.pdf>
+Package pdftex.def Info: main_8cpp__incl.pdf used on input line 19.
+(pdftex.def)             Requested size: 350.0pt x 231.651pt.
+
+Underfull \hbox (badness 10000) detected at line 32
 [][][]
  []
 
 
-<main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.pdf, id=537, 393.47pt x 142
-.5325pt>
+<main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.pdf, id=1202, 441.65pt x 14
+2.5325pt>
 File: main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.pdf Graphic file (type
  pdf)
  <use main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.pdf>
 Package pdftex.def Info: main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.pdf
- used on input line 57.
-(pdftex.def)             Requested size: 350.0pt x 126.7839pt.
- [19 <./main_8cpp__incl.pdf>]) (./strona_8dox.tex) [20 <./main_8cpp_ae66f6b31b5
-ad750f1fe042a706a4e3d4_cgraph.pdf>] (./refman.ind [21
+ used on input line 60.
+(pdftex.def)             Requested size: 350.0pt x 112.96045pt.
+ [36 <./main_8cpp__incl.pdf>]) (./stos_8h.tex
+<stos_8h__incl.pdf, id=1216, 180.675pt x 160.6pt>
+File: stos_8h__incl.pdf Graphic file (type pdf)
+ <use stos_8h__incl.pdf>
+Package pdftex.def Info: stos_8h__incl.pdf used on input line 15.
+(pdftex.def)             Requested size: 180.0pt x 160.00165pt.
+
+<stos_8h__dep__incl.pdf, id=1217, 244.915pt x 218.8175pt>
+File: stos_8h__dep__incl.pdf Graphic file (type pdf)
+
+<use stos_8h__dep__incl.pdf>
+Package pdftex.def Info: stos_8h__dep__incl.pdf used on input line 22.
+(pdftex.def)             Requested size: 244.0pt x 218.0056pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [37 <./main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.pdf> <./stos_8h__inc
+l.pdf
+
+pdfTeX warning: pdflatex (file ./stos_8h__incl.pdf): PDF inclusion: multiple pd
+fs with page group included in a single page
+>]) (./strona_8dox.tex) [38 <./stos_8h__dep__incl.pdf>] (./refman.ind [39
+
+]
+[40] [41
 
 ])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 157.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 157.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 163.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 163.
  (./refman.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 157.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 157.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 163.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 163.
 Package rerunfilecheck Info: File `refman.out' has not changed.
-(rerunfilecheck)             Checksum: 6C5E91E5F4EE6FFE99B2A5D023961A8C;8074.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 157.
+(rerunfilecheck)             Checksum: 24B361A2F80F0DC14C3DBB3DD7DFCF77;18612.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 163.
  ) 
 Here is how much of TeX's memory you used:
- 12449 strings out of 495031
- 174694 string characters out of 6181532
- 250423 words of memory out of 5000000
- 15295 multiletter control sequences out of 15000+600000
- 85093 words of font info for 121 fonts, out of 8000000 for 9000
+ 12861 strings out of 495031
+ 185990 string characters out of 6181532
+ 256409 words of memory out of 5000000
+ 15514 multiletter control sequences out of 15000+600000
+ 96311 words of font info for 148 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 48i,13n,43p,572b,522s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{main_8cpp_source} has been referenced but does no
-t exist, replaced by a fixed one
+ 48i,13n,43p,735b,514s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{stos_8h_source} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{main_8cpp_source} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{kolejka_8h_source} has been referenced but does not
+ exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{dane_8h_source} has been referenced but does not ex
 ist, replaced by a fixed one
@@ -1356,10 +1642,10 @@ w/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/u
 hvb8ac.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvbo8ac.pfb
 ></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on refman.pdf (25 pages, 166758 bytes).
+Output written on refman.pdf (47 pages, 242496 bytes).
 PDF statistics:
- 679 PDF objects out of 1000 (max. 8388607)
- 613 compressed objects within 7 object streams
- 123 named destinations out of 1000 (max. 500000)
- 493 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1514 PDF objects out of 1728 (max. 8388607)
+ 1393 compressed objects within 14 object streams
+ 288 named destinations out of 1000 (max. 500000)
+ 1142 words of extra memory for PDF output out of 10000 (max. 10000000)
 

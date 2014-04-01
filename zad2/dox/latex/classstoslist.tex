@@ -1,0 +1,134 @@
+\hypertarget{classstoslist}{\section{stoslist$<$ T\-Y\-P $>$ Class Template Reference}
+\label{classstoslist}\index{stoslist$<$ T\-Y\-P $>$@{stoslist$<$ T\-Y\-P $>$}}
+}
+
+
+Definicja szablonu stoslist.  
+
+
+
+
+{\ttfamily \#include $<$stos.\-h$>$}
+
+
+
+Inheritance diagram for stoslist$<$ T\-Y\-P $>$\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=166pt]{classstoslist__inherit__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{classstoslist_a5bf76e0da8be5a74aca69cde32768572}{size} ()
+\begin{DoxyCompactList}\small\item\em Metoda size. \end{DoxyCompactList}\item 
+bool \hyperlink{classstoslist_adfcff6fccf977218b512def56b285f4f}{empty} ()
+\begin{DoxyCompactList}\small\item\em Metoda empty. \end{DoxyCompactList}\item 
+void \hyperlink{classstoslist_af307aa8a238c1ae5b223bbb903210086}{push} (T\-Y\-P element)
+\begin{DoxyCompactList}\small\item\em Metoda push. \end{DoxyCompactList}\item 
+void \hyperlink{classstoslist_aca316220c9241b4fcff1e3bfce72eee1}{pop} ()
+\begin{DoxyCompactList}\small\item\em Metoda pop. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+list$<$ T\-Y\-P $>$ \hyperlink{classstoslist_ae1f96afc2ccdf5769f0b9242deedd12c}{lista}
+\begin{DoxyCompactList}\small\item\em Pole lista. \end{DoxyCompactList}\item 
+T\-Y\-P \hyperlink{classstoslist_a3e7308b3ec7f4fef6a6675e4471f5d74}{ostatni}
+\begin{DoxyCompactList}\small\item\em Pole ostatni. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\subsubsection*{template$<$typename T\-Y\-P$>$class stoslist$<$ T\-Y\-P $>$}
+
+Szablon stoslist jest implementacja stosu przy uzyciu szablonu listy dostepnego w S\-T\-L list. W sklad szablonu wchodzi uzyty jako pole klasy szablon listy dzialajacy dla roznych typow danych oraz pole ostatni ktore przechowuje ostatni element znajdujacy sie na stosie. 
+
+Definition at line 27 of file stos.\-h.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classstoslist_adfcff6fccf977218b512def56b285f4f}{\index{stoslist@{stoslist}!empty@{empty}}
+\index{empty@{empty}!stoslist@{stoslist}}
+\subsubsection[{empty}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T\-Y\-P$>$ bool {\bf stoslist}$<$ T\-Y\-P $>$\-::empty (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classstoslist_adfcff6fccf977218b512def56b285f4f}
+Metoda empty sprawdza czy na stosie znajduja sie elementy. Jesli wynik wartosci zwracanej przez metode size jest inny od 0 to funkcja zwraca wartosc logiczna false. W przypadku gdy metoda size zwraca wartosc 0 to zwracana jest wartosc logiczna true.
+
+\begin{DoxyReturn}{Returns}
+Zwraca w zaleznosci od wyniku true badz false 
+\end{DoxyReturn}
+
+
+Definition at line 66 of file stos.\-h.
+
+\hypertarget{classstoslist_aca316220c9241b4fcff1e3bfce72eee1}{\index{stoslist@{stoslist}!pop@{pop}}
+\index{pop@{pop}!stoslist@{stoslist}}
+\subsubsection[{pop}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T\-Y\-P$>$ void {\bf stoslist}$<$ T\-Y\-P $>$\-::pop (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classstoslist_aca316220c9241b4fcff1e3bfce72eee1}
+Metoda pop odpowiada za zabranie elementu ze stosu (z konca listy). W tej metodzie wykorzystywana jest metoda pop\-\_\-back ktora usuwa ostatni element z listy. Przed wykonaniem usuniecia elementu z listy do pola ostatni zapisywana jest wartosc ostatniego elementu znajdujacego sie w liscie. Przed wykonaniem jakiejkolwiek operacji sprawdzana jest liczba elementow na stosie. W przypadku gdy na stosie nie nie ma zadnego elementu to nie mozna wykonac operacji pobrania elementu ze stosu. W przypadku wywolania funkcji pop bez elementu na stosie. Uzytkownik informowany jest odpowiednim komunikatem o braku elementow na stosie. Metoda nie przyjmuje ani też nie zwraca zadnych elementow. 
+
+Definition at line 104 of file stos.\-h.
+
+\hypertarget{classstoslist_af307aa8a238c1ae5b223bbb903210086}{\index{stoslist@{stoslist}!push@{push}}
+\index{push@{push}!stoslist@{stoslist}}
+\subsubsection[{push}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T\-Y\-P$>$ void {\bf stoslist}$<$ T\-Y\-P $>$\-::push (
+\begin{DoxyParamCaption}
+\item[{T\-Y\-P}]{element}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classstoslist_af307aa8a238c1ae5b223bbb903210086}
+Metoda push odpowiada za dodanie elementu do stosu (na koniec listy). Metoda bazuje na metodzie obiektu lista push\-\_\-back, ktora dodaje element na koniec listy. Jako parametr wejsciowy metoda przyjmuje zmienna typu T\-Y\-P. Metoda nie zwraca zadnej wartosci.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em element} & -\/ element ktory ma zostac dodany do struktury stosu \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 83 of file stos.\-h.
+
+\hypertarget{classstoslist_a5bf76e0da8be5a74aca69cde32768572}{\index{stoslist@{stoslist}!size@{size}}
+\index{size@{size}!stoslist@{stoslist}}
+\subsubsection[{size}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T\-Y\-P$>$ int {\bf stoslist}$<$ T\-Y\-P $>$\-::size (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classstoslist_a5bf76e0da8be5a74aca69cde32768572}
+Metoda size podaje ilosc elementow znajdujacych sie na stosie. Zwraca ona wynik metody z obiektu list.
+
+\begin{DoxyReturn}{Returns}
+Zwraca wartosc typu int wyniku metody lista.\-size() 
+\end{DoxyReturn}
+
+
+Definition at line 52 of file stos.\-h.
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classstoslist_ae1f96afc2ccdf5769f0b9242deedd12c}{\index{stoslist@{stoslist}!lista@{lista}}
+\index{lista@{lista}!stoslist@{stoslist}}
+\subsubsection[{lista}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T\-Y\-P$>$ list$<$T\-Y\-P$>$ {\bf stoslist}$<$ T\-Y\-P $>$\-::lista}}\label{classstoslist_ae1f96afc2ccdf5769f0b9242deedd12c}
+Lista jest to miejsce przechowywania danych umieszczanych na stosie. Jest to obiekt typu list na bazie szablonu i dziala dla roznych typu danych. 
+
+Definition at line 36 of file stos.\-h.
+
+\hypertarget{classstoslist_a3e7308b3ec7f4fef6a6675e4471f5d74}{\index{stoslist@{stoslist}!ostatni@{ostatni}}
+\index{ostatni@{ostatni}!stoslist@{stoslist}}
+\subsubsection[{ostatni}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T\-Y\-P$>$ T\-Y\-P {\bf stoslist}$<$ T\-Y\-P $>$\-::ostatni}}\label{classstoslist_a3e7308b3ec7f4fef6a6675e4471f5d74}
+Pole to odpowiada za przechowanie wartosci ostatniego elementu (pierwszy z gory) znajdujacego sie na stosie. 
+
+Definition at line 43 of file stos.\-h.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{stos_8h}{stos.\-h}\end{DoxyCompactItemize}

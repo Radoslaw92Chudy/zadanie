@@ -1,0 +1,495 @@
+\hypertarget{classalgorytm}{\section{algorytm Class Reference}
+\label{classalgorytm}\index{algorytm@{algorytm}}
+}
+
+
+Modeluje pojecie algorytmu.  
+
+
+
+
+{\ttfamily \#include $<$algorytm.\-h$>$}
+
+
+
+Collaboration diagram for algorytm\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classalgorytm__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+int $\ast$ \hyperlink{classalgorytm_aa2512ee12d0f4dd322b2ae38e0104728}{wczytaj\-\_\-dane} ()
+\begin{DoxyCompactList}\small\item\em Metoda wczytujaca dane z pliku tesowego. \end{DoxyCompactList}\item 
+void \hyperlink{classalgorytm_a6a50daab50bb9c7789103e480f8e2c0e}{wczytaj\-\_\-dane\-\_\-stostab} ()
+\begin{DoxyCompactList}\small\item\em Metoda wczytujaca dane z pliku tekstowego do stosu implementowanego tablica. \end{DoxyCompactList}\item 
+void \hyperlink{classalgorytm_af9ae4eedcaaa43665254cc40c3606f54}{wczytaj\-\_\-dane\-\_\-stoslista} ()
+\begin{DoxyCompactList}\small\item\em Metoda wczytujaca dane z pliku tekstowego do stosu implementowanego lista. \end{DoxyCompactList}\item 
+void \hyperlink{classalgorytm_a21851a809ea3ba6915d960c042fdba87}{wczytaj\-\_\-dane\-\_\-kolejkatab} ()
+\begin{DoxyCompactList}\small\item\em Metoda wczytujaca dane z pliku tekstowego do kolejki implementowanej tablica. \end{DoxyCompactList}\item 
+void \hyperlink{classalgorytm_a48d95d13b1f049c90a27cec0ef5e2c64}{wczytaj\-\_\-dane\-\_\-kolejkalist} ()
+\begin{DoxyCompactList}\small\item\em Metoda wczytujaca dane z pliku tekstowego do kolejki implementowanej lista. \end{DoxyCompactList}\item 
+void \hyperlink{classalgorytm_a5ace80a05bfc1305938d173753102ea2}{wlacz\-\_\-zegar} ()
+\begin{DoxyCompactList}\small\item\em Metoda wlacz\-\_\-zegar. \end{DoxyCompactList}\item 
+void \hyperlink{classalgorytm_a12c132e1a407f5dd38796f4d24308a6c}{wylacz\-\_\-zegar} ()
+\begin{DoxyCompactList}\small\item\em Metoda wylacz\-\_\-zegar. \end{DoxyCompactList}\item 
+int $\ast$ \hyperlink{classalgorytm_a78f39eb60ed01731efe1b69af93b0ab1}{wykonaj\-\_\-obliczenia} ()
+\begin{DoxyCompactList}\small\item\em Metoda wykonaj obliczenia. \end{DoxyCompactList}\item 
+int $\ast$ \hyperlink{classalgorytm_a218800ae392b95a6f257538940ee0c12}{wczytaj\-\_\-dane\-\_\-sprawdzajace} ()
+\begin{DoxyCompactList}\small\item\em Metoda wczytujaca dane sprawdzajace z pliku tesowego. \end{DoxyCompactList}\item 
+bool \hyperlink{classalgorytm_a238208b7d91fb5bf21c2262dfade6add}{sprawdz} ()
+\begin{DoxyCompactList}\small\item\em Metoda Sprawdz. \end{DoxyCompactList}\item 
+void \hyperlink{classalgorytm_ae0bcecdcf531d82d6f7fe07b669e8953}{zamien\-\_\-elementy} (int $\ast$tablica, int pierwszy, int drugi)
+\begin{DoxyCompactList}\small\item\em Metoda zamien elementy. \end{DoxyCompactList}\item 
+void \hyperlink{classalgorytm_acf5c24637c36aed90a4703c23d645e88}{odwroc\-\_\-tablice} (int $\ast$tablica)
+\begin{DoxyCompactList}\small\item\em Metoda odwroc tablice. \end{DoxyCompactList}\item 
+int $\ast$ \hyperlink{classalgorytm_abba1df6da457b63d6405de3191ecf8fc}{dodaj\-\_\-element} (int $\ast$tablica, int element)
+\begin{DoxyCompactList}\small\item\em Metoda dodaj elementy. \end{DoxyCompactList}\item 
+int $\ast$ \hyperlink{classalgorytm_a8ea259f4037d0ae2f8d3cffbafd9aa30}{dodaj\-\_\-elementy} (int $\ast$tab\-\_\-pierwsza, int $\ast$tab\-\_\-druga)
+\begin{DoxyCompactList}\small\item\em Metoda dodaj elementy. \end{DoxyCompactList}\item 
+int $\ast$ \hyperlink{classalgorytm_afc58371cc2a7d9355e03b7e0da204067}{operator=} (int $\ast$tab\-\_\-pierwsza)
+\begin{DoxyCompactList}\small\item\em Przeciazenie operatora przypisania. \end{DoxyCompactList}\item 
+int \hyperlink{classalgorytm_ac86c17db1372a20261b2eb66530d2775}{test} (\hyperlink{classdane}{dane} $\ast$Info)
+\begin{DoxyCompactList}\small\item\em Metoda test. \end{DoxyCompactList}\item 
+void \hyperlink{classalgorytm_ad5187dcb092d8c0ea27de1e2107f58fb}{test\-\_\-wczytania} (\hyperlink{classdane}{dane} $\ast$Info)
+\begin{DoxyCompactList}\small\item\em Metoda test\-\_\-wczytania. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{classalgorytm_a6f208bf8705cfe407a3b7dea8b1e871c}{powtorzenia}
+\begin{DoxyCompactList}\small\item\em Pole powtorzenia. \end{DoxyCompactList}\item 
+double \hyperlink{classalgorytm_a3d448d22ae50bd472f6daadd7bd24670}{czas\-\_\-nsec}
+\begin{DoxyCompactList}\small\item\em Pole czas\-\_\-nsec. \end{DoxyCompactList}\item 
+double \hyperlink{classalgorytm_a8e8e89b83e539607b01b5a33f8203d27}{czas\-\_\-sec}
+\begin{DoxyCompactList}\small\item\em Pole czas\-\_\-sec;. \end{DoxyCompactList}\item 
+int \hyperlink{classalgorytm_aa8284a41958410778215e08dc305f409}{elementy}
+\begin{DoxyCompactList}\small\item\em Pole elementy. \end{DoxyCompactList}\item 
+int $\ast$ \hyperlink{classalgorytm_a7bbde139599763bf8b36d21c6f314a1a}{tab\-\_\-danych}
+\begin{DoxyCompactList}\small\item\em Wskaznik tab\-\_\-danych. \end{DoxyCompactList}\item 
+int $\ast$ \hyperlink{classalgorytm_a02dd561c7411091f78e0d058bb1485df}{tab\-\_\-obliczone}
+\begin{DoxyCompactList}\small\item\em Wskaznik tab\-\_\-obliczone. \end{DoxyCompactList}\item 
+int $\ast$ \hyperlink{classalgorytm_a67ec91f63071c85dea86bed4b77d5239}{tab\-\_\-sprawdzajace}
+\begin{DoxyCompactList}\small\item\em Wskaznik tab\-\_\-sprawdzajace. \end{DoxyCompactList}\item 
+\hyperlink{classstostab}{stostab}$<$ int $>$ \hyperlink{classalgorytm_a1829772ca4b928e0df0e4af2fcf907ca}{stos}
+\begin{DoxyCompactList}\small\item\em Obiekt stos klasy stostab. \end{DoxyCompactList}\item 
+\hyperlink{classstoslist}{stoslist}$<$ int $>$ \hyperlink{classalgorytm_a334d547b11514cc290ea0395df44eda2}{stoslista}
+\begin{DoxyCompactList}\small\item\em Obiekt stoslista klasy stoslist. \end{DoxyCompactList}\item 
+\hyperlink{classkolejkalist}{kolejkalist}$<$ int $>$ \hyperlink{classalgorytm_a88d3998fb7af950b9bebe97898b7ab7a}{kolejkalista}
+\begin{DoxyCompactList}\small\item\em Obiekt kolejkalista klasy kolejkalist. \end{DoxyCompactList}\item 
+\hyperlink{classkolejkatab}{kolejkatab}$<$ int $>$ \hyperlink{classalgorytm_aefc3de70ca1ac1bf1ff0598229ddb915}{kolejkatablica}
+\begin{DoxyCompactList}\small\item\em Obiekt kolejkatablica klasy kolejkatab. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Klasa modeluje pojecie algorytmu w sklad ktorego wchodza pola odpowiadajace min. za ilosc wczytanych elementow, powtorzenia algorytmow. Wsrod metod klasy znajduja sie min. wczytanie danych, pobranie czasu, zamiana elementow tablicy itd. 
+
+Definition at line 28 of file algorytm.\-h.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classalgorytm_abba1df6da457b63d6405de3191ecf8fc}{\index{algorytm@{algorytm}!dodaj\-\_\-element@{dodaj\-\_\-element}}
+\index{dodaj\-\_\-element@{dodaj\-\_\-element}!algorytm@{algorytm}}
+\subsubsection[{dodaj\-\_\-element}]{\setlength{\rightskip}{0pt plus 5cm}int $\ast$ algorytm\-::dodaj\-\_\-element (
+\begin{DoxyParamCaption}
+\item[{int $\ast$}]{tablica, }
+\item[{int}]{element}
+\end{DoxyParamCaption}
+)}}\label{classalgorytm_abba1df6da457b63d6405de3191ecf8fc}
+Metoda dodaj element dodaje do zadanej tablicy jeden element o zadanej wartosci na koniec tablicy przez co tablica zwieksza swoj rozmiar o 1. Metoda zwraca wskaznik na nowa tablice.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em tablica} & -\/ wskaznik na tablice do ktorej zostanie dodany element. \\
+\hline
+\mbox{\tt in}  & {\em element} & -\/ zmienna typu int ktora zostanie dodana do podanej tablicy.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Zwraca wskaznik do nowej tablicy z dodanym elementem. 
+\end{DoxyReturn}
+
+
+Definition at line 187 of file algorytm.\-cpp.
+
+\hypertarget{classalgorytm_a8ea259f4037d0ae2f8d3cffbafd9aa30}{\index{algorytm@{algorytm}!dodaj\-\_\-elementy@{dodaj\-\_\-elementy}}
+\index{dodaj\-\_\-elementy@{dodaj\-\_\-elementy}!algorytm@{algorytm}}
+\subsubsection[{dodaj\-\_\-elementy}]{\setlength{\rightskip}{0pt plus 5cm}int $\ast$ algorytm\-::dodaj\-\_\-elementy (
+\begin{DoxyParamCaption}
+\item[{int $\ast$}]{tab\-\_\-pierwsza, }
+\item[{int $\ast$}]{tab\-\_\-druga}
+\end{DoxyParamCaption}
+)}}\label{classalgorytm_a8ea259f4037d0ae2f8d3cffbafd9aa30}
+Metoda dodaje ze soba dwie tablice tworzac jeden element. Jako argumenty metoda przyjmuje wskazniki na tablice ktore maja byc ze soba dodane. Zwracany jest wskaznik na nowo stworzona tablice zlozona z elementow obu tablic.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em tab\-\_\-pierwsza} & -\/ tablica od ktorej bedzie rozpoczynala sie nowo utworzona tablica. \\
+\hline
+\mbox{\tt in}  & {\em tab\-\_\-druga} & -\/ tablica ktora zostanie dopisana jako druga do nowo utworzonej tablicy.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Zwraca wskaznik na nowa tablice. 
+\end{DoxyReturn}
+
+
+Definition at line 197 of file algorytm.\-cpp.
+
+\hypertarget{classalgorytm_acf5c24637c36aed90a4703c23d645e88}{\index{algorytm@{algorytm}!odwroc\-\_\-tablice@{odwroc\-\_\-tablice}}
+\index{odwroc\-\_\-tablice@{odwroc\-\_\-tablice}!algorytm@{algorytm}}
+\subsubsection[{odwroc\-\_\-tablice}]{\setlength{\rightskip}{0pt plus 5cm}void algorytm\-::odwroc\-\_\-tablice (
+\begin{DoxyParamCaption}
+\item[{int $\ast$}]{tablica}
+\end{DoxyParamCaption}
+)}}\label{classalgorytm_acf5c24637c36aed90a4703c23d645e88}
+Metoda odwroc tablice wykonuje zamiane elementow tablicy w taki sposob iz pierwszy staje sie ostatni, a ostatni pierwszym. Jako argument przyjmuje wskaznik na tablice ktora chcemy odwrocic. Nie zwraca wartosci.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em tablica} & -\/ wskaznik na tablice wartosci int. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 179 of file algorytm.\-cpp.
+
+\hypertarget{classalgorytm_afc58371cc2a7d9355e03b7e0da204067}{\index{algorytm@{algorytm}!operator=@{operator=}}
+\index{operator=@{operator=}!algorytm@{algorytm}}
+\subsubsection[{operator=}]{\setlength{\rightskip}{0pt plus 5cm}int $\ast$ algorytm\-::operator= (
+\begin{DoxyParamCaption}
+\item[{int $\ast$}]{tab\-\_\-pierwsza}
+\end{DoxyParamCaption}
+)}}\label{classalgorytm_afc58371cc2a7d9355e03b7e0da204067}
+Przeciazenie operatora przypisania pozwala na bezposrednie przypisanie dwoch tablic ze soba. Jako argument przyjmuje wskaznik na tablice ktora zostanie przypisana. Zwraca natomiast wskaznik na nowa tablice z przypisanymi elementami.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em tab\-\_\-pierwsza} & -\/ wskaznik na tablice ktora bedzie przypisana do drugiej\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Zwraca wskaznik na ta tablice. 
+\end{DoxyReturn}
+
+
+Definition at line 209 of file algorytm.\-cpp.
+
+\hypertarget{classalgorytm_a238208b7d91fb5bf21c2262dfade6add}{\index{algorytm@{algorytm}!sprawdz@{sprawdz}}
+\index{sprawdz@{sprawdz}!algorytm@{algorytm}}
+\subsubsection[{sprawdz}]{\setlength{\rightskip}{0pt plus 5cm}bool algorytm\-::sprawdz (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classalgorytm_a238208b7d91fb5bf21c2262dfade6add}
+Metoda ta sprawdza poprawnosci wykonania operacji na tablicy danych poprzez porownanie kazdego elementu tab\-\_\-obliczone z odpowiadajacym jej elementem tab\-\_\-sprawdzjace. W przypadku poprawnego wykonania poprawnej operacji na tab\-\_\-danych i porownaniu z tab\-\_\-sprawdzajace metoda zwraca wartosc true gdy jakis z elementow jest inny od odpowiednika to zwracana jest wartosc false.
+
+\begin{DoxyReturn}{Returns}
+Zwraca wartosc logiczna true/false w zaleznosci od rezultatu. 
+\end{DoxyReturn}
+
+
+Definition at line 154 of file algorytm.\-cpp.
+
+\hypertarget{classalgorytm_ac86c17db1372a20261b2eb66530d2775}{\index{algorytm@{algorytm}!test@{test}}
+\index{test@{test}!algorytm@{algorytm}}
+\subsubsection[{test}]{\setlength{\rightskip}{0pt plus 5cm}int algorytm\-::test (
+\begin{DoxyParamCaption}
+\item[{{\bf dane} $\ast$}]{Info}
+\end{DoxyParamCaption}
+)}}\label{classalgorytm_ac86c17db1372a20261b2eb66530d2775}
+Metoda test jak nazwa wskazuje dokonuje poprawnosci dzialania zalozen programu. Sklada sie z odpowiedniej sekkwencji wywolania funkcji. Otwierane sa tu pliki testowe i sprawdzajace. Do obiektu Info sa wysylane odpowiednie informacje. Na koniec wywolywane sa metody klasy dane dokonujace zapisu danych statystycznych do pliku csv. Jako argument przyjmuje wskaznik do obiektu klasy dane. Zwraca wartosc logiczna 0 po wykonaniu testu
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em Info} & -\/ wskaznik na obiekt klasy dane do ktorego zapisane bd wyniki przeprowadzonego testu.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Zwraca wartosc logiczna typu int po wykonaniu testu. 
+\end{DoxyReturn}
+
+
+Definition at line 218 of file algorytm.\-cpp.
+
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=318pt]{classalgorytm_ac86c17db1372a20261b2eb66530d2775_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classalgorytm_ad5187dcb092d8c0ea27de1e2107f58fb}{\index{algorytm@{algorytm}!test\-\_\-wczytania@{test\-\_\-wczytania}}
+\index{test\-\_\-wczytania@{test\-\_\-wczytania}!algorytm@{algorytm}}
+\subsubsection[{test\-\_\-wczytania}]{\setlength{\rightskip}{0pt plus 5cm}void algorytm\-::test\-\_\-wczytania (
+\begin{DoxyParamCaption}
+\item[{{\bf dane} $\ast$}]{Info}
+\end{DoxyParamCaption}
+)}}\label{classalgorytm_ad5187dcb092d8c0ea27de1e2107f58fb}
+Metoda test\-\_\-wczytania jest to metoda testujaca wczytywanie elementow z pliku oraz pomiar czasu tej operacji. Jako argument wejsciowy metoda przyjmuje wskaznik na obiekt typu dane. Nie zwracana jest zadna wartosc.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em Info} & -\/ wskaznik na obiekt klasy dane \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 236 of file algorytm.\-cpp.
+
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classalgorytm_ad5187dcb092d8c0ea27de1e2107f58fb_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=280pt]{classalgorytm_ad5187dcb092d8c0ea27de1e2107f58fb_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classalgorytm_aa2512ee12d0f4dd322b2ae38e0104728}{\index{algorytm@{algorytm}!wczytaj\-\_\-dane@{wczytaj\-\_\-dane}}
+\index{wczytaj\-\_\-dane@{wczytaj\-\_\-dane}!algorytm@{algorytm}}
+\subsubsection[{wczytaj\-\_\-dane}]{\setlength{\rightskip}{0pt plus 5cm}int $\ast$ algorytm\-::wczytaj\-\_\-dane (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classalgorytm_aa2512ee12d0f4dd322b2ae38e0104728}
+Metoda ta wykonuje operacje wczytania pliku z danymi do tablicy tab\-\_\-danych zawierajacej dane int. rozmiar tablicy definiowany jest przez liczbe elementow okreslona przez pierwsza wartosc wczytana z pliku. W przypadku niepowodzenia operacji otwarcia pliku uzytkownik informowany jest o tym odpowiednim komunikatem. Metoda zwraca wskaznik na tablice z wczytanymi przez nia danymi.
+
+\begin{DoxyReturn}{Returns}
+Zwraca wskaznik na tab\-\_\-danych 
+\end{DoxyReturn}
+
+
+Definition at line 30 of file algorytm.\-cpp.
+
+\hypertarget{classalgorytm_a48d95d13b1f049c90a27cec0ef5e2c64}{\index{algorytm@{algorytm}!wczytaj\-\_\-dane\-\_\-kolejkalist@{wczytaj\-\_\-dane\-\_\-kolejkalist}}
+\index{wczytaj\-\_\-dane\-\_\-kolejkalist@{wczytaj\-\_\-dane\-\_\-kolejkalist}!algorytm@{algorytm}}
+\subsubsection[{wczytaj\-\_\-dane\-\_\-kolejkalist}]{\setlength{\rightskip}{0pt plus 5cm}void algorytm\-::wczytaj\-\_\-dane\-\_\-kolejkalist (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classalgorytm_a48d95d13b1f049c90a27cec0ef5e2c64}
+Metoda ta wykonuje operacje wczytywania pliku tekstowego z danymi do kolejki zaimplementowanej przy uzyciu szablonu listy z S\-T\-L wraz z wykorzystaniem jej metod. Metoda nie przyjmuje zadnych argumentow. Nie zwraca tez zadnych wartosci , w przypadku niepoprawnego otwarcia pliku uzytkownik jest informowany o tym fakcie odpowiednim komunikatem. 
+
+Definition at line 100 of file algorytm.\-cpp.
+
+\hypertarget{classalgorytm_a21851a809ea3ba6915d960c042fdba87}{\index{algorytm@{algorytm}!wczytaj\-\_\-dane\-\_\-kolejkatab@{wczytaj\-\_\-dane\-\_\-kolejkatab}}
+\index{wczytaj\-\_\-dane\-\_\-kolejkatab@{wczytaj\-\_\-dane\-\_\-kolejkatab}!algorytm@{algorytm}}
+\subsubsection[{wczytaj\-\_\-dane\-\_\-kolejkatab}]{\setlength{\rightskip}{0pt plus 5cm}void algorytm\-::wczytaj\-\_\-dane\-\_\-kolejkatab (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classalgorytm_a21851a809ea3ba6915d960c042fdba87}
+Metoda ta wykonuje operacje wczytywania pliku tekstowego z danymi do kolejki zaimlementowanej przy użyciu tablicy alokowanej dynamicznie. Funkcja nie zwraca zadnej wartosci. W przypaku niepowodzenia operacji otwarcia pliku uzytkownik informowany jest o tym odpowiednim komunikatem. 
+
+Definition at line 82 of file algorytm.\-cpp.
+
+\hypertarget{classalgorytm_a218800ae392b95a6f257538940ee0c12}{\index{algorytm@{algorytm}!wczytaj\-\_\-dane\-\_\-sprawdzajace@{wczytaj\-\_\-dane\-\_\-sprawdzajace}}
+\index{wczytaj\-\_\-dane\-\_\-sprawdzajace@{wczytaj\-\_\-dane\-\_\-sprawdzajace}!algorytm@{algorytm}}
+\subsubsection[{wczytaj\-\_\-dane\-\_\-sprawdzajace}]{\setlength{\rightskip}{0pt plus 5cm}int $\ast$ algorytm\-::wczytaj\-\_\-dane\-\_\-sprawdzajace (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classalgorytm_a218800ae392b95a6f257538940ee0c12}
+Metoda ta wykonuje operacje wczytania pliku z danymi do tablicy tab\-\_\-sprawdzajace zawierajacej dane int. rozmiar tablicy definiowany jest przez liczbe elementow okreslona przez pierwsza wartosc wczytana z pliku z danymi testowymi. W przypadku niepowodzenia operacji otwarcia pliku uzytkownik informowany jest o tym odpowiednim komunikatem. Metoda zwraca wskaznik na tablice z wczytanymi przez nia danymi sprawdzajacymi.
+
+\begin{DoxyReturn}{Returns}
+Zwraca wskaznik na tab\-\_\-sprawdzajace. 
+\end{DoxyReturn}
+
+
+Definition at line 137 of file algorytm.\-cpp.
+
+\hypertarget{classalgorytm_af9ae4eedcaaa43665254cc40c3606f54}{\index{algorytm@{algorytm}!wczytaj\-\_\-dane\-\_\-stoslista@{wczytaj\-\_\-dane\-\_\-stoslista}}
+\index{wczytaj\-\_\-dane\-\_\-stoslista@{wczytaj\-\_\-dane\-\_\-stoslista}!algorytm@{algorytm}}
+\subsubsection[{wczytaj\-\_\-dane\-\_\-stoslista}]{\setlength{\rightskip}{0pt plus 5cm}void algorytm\-::wczytaj\-\_\-dane\-\_\-stoslista (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classalgorytm_af9ae4eedcaaa43665254cc40c3606f54}
+Metoda ta wykonuje operacje wczytywania pliku tekstowego z danymi do stosu zaimlementowanego przy użyciu listy z S\-T\-L. Funkcja nie zwraca zadnej wartosci. W przypaku niepowodzenia operacji otwarcia pliku uzytkownik informowany jest o tym odpowiednim komunikatem. 
+
+Definition at line 65 of file algorytm.\-cpp.
+
+\hypertarget{classalgorytm_a6a50daab50bb9c7789103e480f8e2c0e}{\index{algorytm@{algorytm}!wczytaj\-\_\-dane\-\_\-stostab@{wczytaj\-\_\-dane\-\_\-stostab}}
+\index{wczytaj\-\_\-dane\-\_\-stostab@{wczytaj\-\_\-dane\-\_\-stostab}!algorytm@{algorytm}}
+\subsubsection[{wczytaj\-\_\-dane\-\_\-stostab}]{\setlength{\rightskip}{0pt plus 5cm}void algorytm\-::wczytaj\-\_\-dane\-\_\-stostab (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classalgorytm_a6a50daab50bb9c7789103e480f8e2c0e}
+Metoda ta wykonuje operacje wczytywania pliku tekstowego z danymi do stosu zaimlementowanego przy użyciu tablicy alokowanej dynamicznie. Funkcja nie zwraca zadnej wartosci. W przypaku niepowodzenia operacji otwarcia pliku uzytkownik informowany jest o tym odpowiednim komunikatem. 
+
+Definition at line 48 of file algorytm.\-cpp.
+
+\hypertarget{classalgorytm_a5ace80a05bfc1305938d173753102ea2}{\index{algorytm@{algorytm}!wlacz\-\_\-zegar@{wlacz\-\_\-zegar}}
+\index{wlacz\-\_\-zegar@{wlacz\-\_\-zegar}!algorytm@{algorytm}}
+\subsubsection[{wlacz\-\_\-zegar}]{\setlength{\rightskip}{0pt plus 5cm}void algorytm\-::wlacz\-\_\-zegar (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classalgorytm_a5ace80a05bfc1305938d173753102ea2}
+Metoda sluzy do wlaczenia zegara i wykorzystania w obliczeniach czasu w jakim wykonany zostal algorytm oraz kazde jego powtorzenie. Nie zwraca wartosci. 
+
+Definition at line 117 of file algorytm.\-cpp.
+
+\hypertarget{classalgorytm_a78f39eb60ed01731efe1b69af93b0ab1}{\index{algorytm@{algorytm}!wykonaj\-\_\-obliczenia@{wykonaj\-\_\-obliczenia}}
+\index{wykonaj\-\_\-obliczenia@{wykonaj\-\_\-obliczenia}!algorytm@{algorytm}}
+\subsubsection[{wykonaj\-\_\-obliczenia}]{\setlength{\rightskip}{0pt plus 5cm}int $\ast$ algorytm\-::wykonaj\-\_\-obliczenia (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classalgorytm_a78f39eb60ed01731efe1b69af93b0ab1}
+Metoda sluzy do wykonywania obliczen na tablicy znajdujacej sie w polu klasy Algorytm. Funkcja zwraca wskaznik na tablice z danymi po wykonaniu operacji na nich.
+
+\begin{DoxyReturn}{Returns}
+Wskaznik na tab\-\_\-obliczone. 
+\end{DoxyReturn}
+
+
+Definition at line 129 of file algorytm.\-cpp.
+
+\hypertarget{classalgorytm_a12c132e1a407f5dd38796f4d24308a6c}{\index{algorytm@{algorytm}!wylacz\-\_\-zegar@{wylacz\-\_\-zegar}}
+\index{wylacz\-\_\-zegar@{wylacz\-\_\-zegar}!algorytm@{algorytm}}
+\subsubsection[{wylacz\-\_\-zegar}]{\setlength{\rightskip}{0pt plus 5cm}void algorytm\-::wylacz\-\_\-zegar (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classalgorytm_a12c132e1a407f5dd38796f4d24308a6c}
+Metoda sluzy do wylaczenia zegara o wykonaniu sie danego algorytmu. Metoda nie zwraca zadnych wartosci. 
+
+Definition at line 123 of file algorytm.\-cpp.
+
+\hypertarget{classalgorytm_ae0bcecdcf531d82d6f7fe07b669e8953}{\index{algorytm@{algorytm}!zamien\-\_\-elementy@{zamien\-\_\-elementy}}
+\index{zamien\-\_\-elementy@{zamien\-\_\-elementy}!algorytm@{algorytm}}
+\subsubsection[{zamien\-\_\-elementy}]{\setlength{\rightskip}{0pt plus 5cm}void algorytm\-::zamien\-\_\-elementy (
+\begin{DoxyParamCaption}
+\item[{int $\ast$}]{tablica, }
+\item[{int}]{pierwszy, }
+\item[{int}]{drugi}
+\end{DoxyParamCaption}
+)}}\label{classalgorytm_ae0bcecdcf531d82d6f7fe07b669e8953}
+Metoda zamien elementy dokonuje zamiany elementow o zadanych parametrach. Jako parametry metoda przyjmuje wskaznik na tablice na ktorej chcemy wykonac operacje oraz dwa kolejne argumenty typu int, ktore podaja numer elementu ktore maja byc ze soba zamienione. Zadna wartosc nie jest zwracana.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em tablica} & -\/ wskaznik na tablice, w ktorej chcemy zamienic elementy. \\
+\hline
+\mbox{\tt in}  & {\em pierwszy} & -\/ pierwszy z elementow tablicy ktore chcemy zamienic. \\
+\hline
+\mbox{\tt in}  & {\em drugi} & -\/ drug z elementow tablicy ktore chcemy ze soba zamienic. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 173 of file algorytm.\-cpp.
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classalgorytm_a3d448d22ae50bd472f6daadd7bd24670}{\index{algorytm@{algorytm}!czas\-\_\-nsec@{czas\-\_\-nsec}}
+\index{czas\-\_\-nsec@{czas\-\_\-nsec}!algorytm@{algorytm}}
+\subsubsection[{czas\-\_\-nsec}]{\setlength{\rightskip}{0pt plus 5cm}double algorytm\-::czas\-\_\-nsec}}\label{classalgorytm_a3d448d22ae50bd472f6daadd7bd24670}
+Pole odpowiada za przechowywanie nano czesci czasu wykonania operacji. 
+
+Definition at line 43 of file algorytm.\-h.
+
+\hypertarget{classalgorytm_a8e8e89b83e539607b01b5a33f8203d27}{\index{algorytm@{algorytm}!czas\-\_\-sec@{czas\-\_\-sec}}
+\index{czas\-\_\-sec@{czas\-\_\-sec}!algorytm@{algorytm}}
+\subsubsection[{czas\-\_\-sec}]{\setlength{\rightskip}{0pt plus 5cm}double algorytm\-::czas\-\_\-sec}}\label{classalgorytm_a8e8e89b83e539607b01b5a33f8203d27}
+Pole czas\-\_\-sec odpowiada za przechowywanie liczby sekund wykonania danego powtorzenia. 
+
+Definition at line 50 of file algorytm.\-h.
+
+\hypertarget{classalgorytm_aa8284a41958410778215e08dc305f409}{\index{algorytm@{algorytm}!elementy@{elementy}}
+\index{elementy@{elementy}!algorytm@{algorytm}}
+\subsubsection[{elementy}]{\setlength{\rightskip}{0pt plus 5cm}int algorytm\-::elementy}}\label{classalgorytm_aa8284a41958410778215e08dc305f409}
+Pole to odpowiedzialne jest za przechowywanie informacji mowiacej o ilosci elementow jaka pozostanie wczytana do programu z pliku tekstowego. 
+
+Definition at line 58 of file algorytm.\-h.
+
+\hypertarget{classalgorytm_a88d3998fb7af950b9bebe97898b7ab7a}{\index{algorytm@{algorytm}!kolejkalista@{kolejkalista}}
+\index{kolejkalista@{kolejkalista}!algorytm@{algorytm}}
+\subsubsection[{kolejkalista}]{\setlength{\rightskip}{0pt plus 5cm}{\bf kolejkalist}$<$int$>$ algorytm\-::kolejkalista}}\label{classalgorytm_a88d3998fb7af950b9bebe97898b7ab7a}
+Obiekt kolejkalista jest szablonem klasy kolejkalist oznaczajacym kolejke zaimplementowana przy uzyciu szablonu listy z biblioteki S\-T\-L. 
+
+Definition at line 108 of file algorytm.\-h.
+
+\hypertarget{classalgorytm_aefc3de70ca1ac1bf1ff0598229ddb915}{\index{algorytm@{algorytm}!kolejkatablica@{kolejkatablica}}
+\index{kolejkatablica@{kolejkatablica}!algorytm@{algorytm}}
+\subsubsection[{kolejkatablica}]{\setlength{\rightskip}{0pt plus 5cm}{\bf kolejkatab}$<$int$>$ algorytm\-::kolejkatablica}}\label{classalgorytm_aefc3de70ca1ac1bf1ff0598229ddb915}
+Obiekt kolejkatablica jest kolejka zaimplementowana przy uzyciu szablonu klasy kolejkatab. Klasa ta wykorzystuje implementacje przy uzyciu tablicy alokowanej dynamicznie. 
+
+Definition at line 117 of file algorytm.\-h.
+
+\hypertarget{classalgorytm_a6f208bf8705cfe407a3b7dea8b1e871c}{\index{algorytm@{algorytm}!powtorzenia@{powtorzenia}}
+\index{powtorzenia@{powtorzenia}!algorytm@{algorytm}}
+\subsubsection[{powtorzenia}]{\setlength{\rightskip}{0pt plus 5cm}int algorytm\-::powtorzenia}}\label{classalgorytm_a6f208bf8705cfe407a3b7dea8b1e871c}
+Pole to odpowiedzialne jest za przechowywanie informacji mowiacej o ilosci powtorzen algorytmu. 
+
+Definition at line 36 of file algorytm.\-h.
+
+\hypertarget{classalgorytm_a1829772ca4b928e0df0e4af2fcf907ca}{\index{algorytm@{algorytm}!stos@{stos}}
+\index{stos@{stos}!algorytm@{algorytm}}
+\subsubsection[{stos}]{\setlength{\rightskip}{0pt plus 5cm}{\bf stostab}$<$int$>$ algorytm\-::stos}}\label{classalgorytm_a1829772ca4b928e0df0e4af2fcf907ca}
+Obiekt ten jest szablonem obiektu klasy stostab oznaczajacy stos zaimplementowany na bazie tablicy alokowanej dynamicznie 
+
+Definition at line 92 of file algorytm.\-h.
+
+\hypertarget{classalgorytm_a334d547b11514cc290ea0395df44eda2}{\index{algorytm@{algorytm}!stoslista@{stoslista}}
+\index{stoslista@{stoslista}!algorytm@{algorytm}}
+\subsubsection[{stoslista}]{\setlength{\rightskip}{0pt plus 5cm}{\bf stoslist}$<$int$>$ algorytm\-::stoslista}}\label{classalgorytm_a334d547b11514cc290ea0395df44eda2}
+Obiekt ten jest szablonem obiektu klasy stoslist oznaczajacym stos zaimplementowany na bazie szablonu listy z S\-T\-L. 
+
+Definition at line 100 of file algorytm.\-h.
+
+\hypertarget{classalgorytm_a7bbde139599763bf8b36d21c6f314a1a}{\index{algorytm@{algorytm}!tab\-\_\-danych@{tab\-\_\-danych}}
+\index{tab\-\_\-danych@{tab\-\_\-danych}!algorytm@{algorytm}}
+\subsubsection[{tab\-\_\-danych}]{\setlength{\rightskip}{0pt plus 5cm}int$\ast$ algorytm\-::tab\-\_\-danych}}\label{classalgorytm_a7bbde139599763bf8b36d21c6f314a1a}
+Pole to odpowiedzialne jest za przechowywanie wskaznika do alokowanej dynamicznie tablicy danych zawierajacej elementy wczytane z pliku testowego. 
+
+Definition at line 67 of file algorytm.\-h.
+
+\hypertarget{classalgorytm_a02dd561c7411091f78e0d058bb1485df}{\index{algorytm@{algorytm}!tab\-\_\-obliczone@{tab\-\_\-obliczone}}
+\index{tab\-\_\-obliczone@{tab\-\_\-obliczone}!algorytm@{algorytm}}
+\subsubsection[{tab\-\_\-obliczone}]{\setlength{\rightskip}{0pt plus 5cm}int$\ast$ algorytm\-::tab\-\_\-obliczone}}\label{classalgorytm_a02dd561c7411091f78e0d058bb1485df}
+Pole to odpowiedzialne jest za przechowywanie wskaznika do alokowanej dynamicznie tablicy danych zawierajacej wartosci elementow z tablicy danych przez okreslona wartosc. 
+
+Definition at line 76 of file algorytm.\-h.
+
+\hypertarget{classalgorytm_a67ec91f63071c85dea86bed4b77d5239}{\index{algorytm@{algorytm}!tab\-\_\-sprawdzajace@{tab\-\_\-sprawdzajace}}
+\index{tab\-\_\-sprawdzajace@{tab\-\_\-sprawdzajace}!algorytm@{algorytm}}
+\subsubsection[{tab\-\_\-sprawdzajace}]{\setlength{\rightskip}{0pt plus 5cm}int$\ast$ algorytm\-::tab\-\_\-sprawdzajace}}\label{classalgorytm_a67ec91f63071c85dea86bed4b77d5239}
+Pole to odpowiedzialne jest za przechowywanie wskaznika do alokowanej dynamicznie tablicy danych zawierajacej wartosci elementow z tablicy danych przez okreslona wartosc. 
+
+Definition at line 85 of file algorytm.\-h.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{algorytm_8h}{algorytm.\-h}\item 
+\hyperlink{algorytm_8cpp}{algorytm.\-cpp}\end{DoxyCompactItemize}

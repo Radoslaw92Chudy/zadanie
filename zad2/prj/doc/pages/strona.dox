@@ -1,0 +1,16 @@
+/*!
+    \mainpage Operacje na pliku tekstowym
+
+    \author  Radoslaw Chudy
+    \date    30.03.2014
+    \version 2.0
+
+    Program wykonuje wczytuje dane z pliku tekstowego do struktur danych.
+
+    \section etykieta-dzialanie Dzialanie:
+
+Program wykonuje operacje wczytywania danych z pliku do 
+odpowiednich struktur danych tzn kolejki i stosu.
+Ponadto mierzy czas wykonywania tych operacji. Wyniki sa
+zapisywane w pliku csv.
+*/

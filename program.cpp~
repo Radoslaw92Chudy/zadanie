@@ -1,0 +1,71 @@
+#include <iostream>
+#include <fstream>
+#include <time.h>
+#include <math.h>
+using namespace std;
+/*!
+ * \file
+ * \brief Funkcja main
+ * 
+ * Plik w ktorym znajduje sie funkcja main zawiera wszystkie
+ * petle i dane wykonania programu. W niej tworzone sa
+ * wszystkie obiekty oraz zmienne konieczne do odpowiedniego
+ * dzialania programu.
+*/
+int main(){
+	fstream plik,pliks,plikcsv;
+	plik.open("test100.txt");
+    int *tab,*tabs,*tabo,ilosc=0,n=0,i,j=1,dobrze=0,zle=0;
+    float czasp,czas,*tabczas,odchylenie,suma,srednia,sumakwadratow;
+	plik>>n;
+	tab=new int[n];
+	tabo=new int[n];
+	tabczas=new float[j];
+	tabs=new int[n];	
+if(plik.good()==true){
+	cout<<"Podaj ilosc powtorzen obliczen:";
+	cin>>ilosc;
+for(i=0;i<n;i++){
+	plik>>tab[i];
+ } 
+  
+for(j=1;j<=ilosc;j++){
+  czasp=clock();
+for(i=0;i<n;i++){
+	tabo[i]=tab[i]*2;
+	}
+	cout<<j<<endl;
+	czas=clock();
+	tabczas[j-1]=czas-czasp;
+    suma=suma+tabczas[j-1];
+}
+ plik.close();
+	pliks.open("sprawdzenie100.txt");
+
+if(pliks.good()==true){
+	
+for(i=0;i<n;i++){
+	pliks>>tabs[i];
+	}
+for(i=0;i<n;i++){
+	if(tabo[i]==tabs[i])
+		dobrze++;
+		else
+	    zle++;
+	}
+}
+}	
+cout<<dobrze<<endl;
+cout<<zle<<endl;
+srednia=suma/ilosc;
+plikcsv.open("dane.csv", ios::out);
+plikcsv<<"Ilosc powtorzen: "<<ilosc<<"\n";
+for(j=0;j<ilosc;j++){
+    plikcsv<<"Powtorzenie: "<<j+1<<","<<" Czas: "<<tabczas[j]<<"\n";
+    sumakwadratow=sumakwadratow+(tabczas[j]-srednia)*(tabczas[j]-srednia);
+}
+odchylenie=sqrt(sumakwadratow); 
+plikcsv<<"Odchylenie standardowe: "<<odchylenie<<"\n"; 
+plikcsv.close();
+return 0;
+}
